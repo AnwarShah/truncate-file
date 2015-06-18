@@ -1,3 +1,10 @@
+class LinesMoreThanActual < StandardError
+  def initialize(lines_count, error_msg='')
+    puts "File has less than #{lines_count} lines "
+    super(error_msg)
+  end
+end
+
 # default options
 ORIENT_OPS = ['top', 'bottom']
 
@@ -20,6 +27,16 @@ def give_usage_hint
   exit
 end
 
+def error_more_than_actual_lines(no_lines)
+  puts "Error: File has less than #{no_lines} lines (total #{@total_lines})"
+  exit
+end
+
+def error_non_positive_line_count
+  puts "Error: You have given non-positive value for line count"
+  exit
+end
+
 def valid_options?(opt_hash)
   opt_hash.each_key do |key|
     case key
@@ -28,11 +45,15 @@ def valid_options?(opt_hash)
     when '-l'
       begin
         no_lines = Integer( opt_hash[key] )
-        opt_hash[key] = no_lines # set the integerized value     
+        opt_hash[key] = no_lines # set the integerized value 
+        if no_lines > @total_lines
+          error_more_than_actual_lines(no_lines)
+        elsif no_lines < 1
+          error_non_positive_line_count
+        end
       rescue ArgumentError => e
         return false
       end
-      return false unless no_lines.between?(1, @total_lines)
     end
   end
   true #otherwise true

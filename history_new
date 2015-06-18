@@ -98,3 +98,103 @@ sudo find {$fdir,.}  -iname 'ar*.ttf'
 $fdir=/usr/local/share/fonts/, /usr/share/fonts/
 $fdir="/usr/local/share/fonts/, /usr/share/fonts/"
 $fdir="/usr/local/share/fonts/|/usr/share/fonts/"
+fdir="/usr/local/share/fonts/|/usr/share/fonts/"
+fdir
+sudo find $fdir -iname 'ar*.ttf' 
+fdir="/usr/local/share/fonts/,/usr/share/fonts/"
+sudo find $fdir -iname 'ar*.ttf' 
+fdir=/usr/local/share/fonts/,/usr/share/fonts/
+sudo find $fdir -iname 'ar*.ttf' 
+fdir=/usr/local/share/fonts/ /usr/share/fonts/
+fdir=/usr/local/share/fonts/;/usr/share/fonts/
+fdir=/usr/local/share/fonts/\,/usr/share/fonts/
+sudo find $fdir -iname 'ar*.ttf' 
+fdir={/usr/local/share/fonts/,/usr/share/fonts/}
+sudo find $fdir -iname 'ar*.ttf' 
+fdir=[/usr/local/share/fonts/,/usr/share/fonts/]
+sudo find $fdir -iname 'ar*.ttf' 
+fdir=Array[/usr/local/share/fonts/,/usr/share/fonts/]
+sudo find $fdir -iname 'ar*.ttf' 
+fdir=Array[/usr/local/share/fonts/ /usr/share/fonts/]
+fdir=Array['/usr/local/share/fonts/' '/usr/share/fonts/']
+fdir=Array('/usr/local/share/fonts/' '/usr/share/fonts/')
+fdir=('/usr/local/share/fonts/' '/usr/share/fonts/')
+fdir
+$fdir
+sudo find $fdir -iname 'ar*.ttf' 
+sudo find $fdir,. -iname 'ar*.ttf' 
+sudo find $fdir|. -iname 'ar*.ttf' 
+sudo find {$fdir,.} -iname 'ar*.ttf' 
+$fdir
+$fdir[0]
+echo $fdir[0]
+echo $fdir
+fdir=('/usr/local/share/fonts/' ,'/usr/share/fonts/')
+echo $fdir
+echo $fdir[0]
+echo $fdir[@]
+d1='/usr/local/share/fonts/'
+d2=/usr/share/fonts
+sudo find {$fdir,$d2} -iname 'ar*.ttf' 
+sudo find {$d1,$d2} -iname 'ar*.ttf' 
+sudo find {$d1,$d2} -iname 'black*.ttf' 
+sudo find {$d1,$d2} -iname 'black*.ttf' -exec rm -i {} \;
+sudo find {$d1,$d2} -iname 'danci*.ttf' -exec rm -i {} \;
+sudo find {$d1,$d2} -iname 'delphine*.ttf' -exec rm -i {} \;
+f=delphine
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f=dkg
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f=dkg*
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f=domes*
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f=el*
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f=fem*
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f=flat*
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+exit
+cd /usr/share/fonts
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+$d1
+d1=/usr/local/share/fonts/
+d2=/usr/share/fonts
+f1=Gard*|itwas
+f1=Gard*,itwas
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f1={Gard*,itwas}
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f1={Gard*,itwas*}
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f1={Gard*,itwas*}
+echo $f1
+f={Gard*,itwas*}
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f={gard*,itwas*}
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f={gard*,itw*}
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f=gard*
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f=gard*|handle
+f=gard*|handle*
+f=(gard* handle*)
+echo $f
+echo $f[0]
+f=(gard* , handle*)
+echo $f[0]
+echo $f
+f={gard* , handle*}
+f={gard* | handle*}
+f={gard* handle*}
+f=(gard* handle*)
+echo ${f}
+echo ${f[*]}
+echo ${ f[*] }
+echo ${ f[*]}
+echo ${f[*]}
+echo ${f[2]}
+echo ${f[1]}
+echo ${f[0]}
