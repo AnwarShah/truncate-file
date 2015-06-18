@@ -1,3 +1,5 @@
+require 'fileutils'
+
 class LinesMoreThanActual < StandardError
   def initialize(lines_count, error_msg='')
     puts "File has less than #{lines_count} lines "
@@ -85,7 +87,7 @@ def parse_user_options
 end
   
 def read_all_lines
-  File.open(File.basename "~/history_copy", "r") do |file|
+  File.open(File.basename @filename, "r") do |file|
     file.readlines
   end
 end
@@ -114,8 +116,11 @@ def truncate_lines(lines)
       write_to_file(lines.take(@total_lines - line_count), file)
     end
   end
+
+  FileUtils.mv(temp_file, @filename)
 end
 
+@filename = 'history_copy'
 lines = read_all_lines
 @total_lines = lines.length
 parse_user_options()
