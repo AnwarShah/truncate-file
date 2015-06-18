@@ -1,0 +1,3000 @@
+find  -type f 
+find  -type f | wc 
+find -iname '*.deb' -type f
+find -iname '*.deb' -type f | wc 
+ls *.deb
+mkdir -p 1/2/3/4/5/66/76/7/56/45/34/342/32/3/23/
+mv db.deb 1/2/3/4/5/66/76/7/56/45/34/342/32/3/23/ -v
+find -iname '*.deb' -type f | wc 
+cd /media/linux+custom/linux/repo/Trusty-New/
+find -iname '*.deb' -type f | wc 
+cd /usr/share/fonts/truetype/
+ls
+cd ..
+ls
+find -iname 'anaktoria'
+find -iname '*anaktoria*'
+find -iname '*anaktoria*' -exec rm {} \;
+sudo find -iname '*anaktoria*' -exec rm {} \;
+sudo find -iname '*allura*' -exec rm -i {} \;
+sudo find -iname '*allura*' 
+sudo find -iname '*alex*' 
+sudo find -iname '*alex*' -exec rm  -i {} \;
+exit
+cd /usr/share/fonts
+ls
+sudo find -iname '*alex*' -exec rm  -i {} \;
+sudo find -iname '*ange*' -exec rm  -i {} \;
+sudo find -iname '*ange*' 
+sudo find -iname '*an*' 
+sudo find -iname '*ani*' 
+sudo find -iname 'ani*' 
+sudo find -iname 'ange*' 
+sudo find -iname 'An*' 
+sudo find -iname 'Ang*' 
+sudo find -iname 'Ar*' 
+sudo find -iname 'Art*' 
+sudo find -iname 'art*' 
+fc-list 'art*'
+fc-list '*art*'
+fc-list '*ar*'
+fc-list '*a*'
+fc-list ''
+fc-list 'a'
+fc-list 'a*'
+fc-list 'a\*'
+fc-list 
+fc-list --help
+fc-list art
+fc-list ar
+fc-list an
+fc-list An
+fc-list A
+fc-list A*
+fc-list cl
+fc-list *cl*
+fc-list *C*
+fc-list *cl* -v
+fc-list *cl* -q
+fc-list *cl* -V
+fc-list *cl* -h
+fc-list *cl* 
+fc-list *cl* --verbose
+man fc-list
+fc-list [cs]
+fc-list [s]
+fc-list [/*/]
+info fc-list
+fc-match 'arch'
+fc-pattern 'df'
+fc-pattern 'arch*'
+fc-pattern '*arch*'
+fc-scan ''
+fc-scan 'a'
+fc-scan 
+fc-query 
+fc-query slkdf
+fc-validate
+sudo find -iname 'ar*' 
+sudo find -iname 'bl*' 
+sudo ~/.fonts/ find -iname 'bl*' 
+sudo ~/.fonts find -iname 'bl*' 
+sudo find ~/.fonts  -iname 'bl*' 
+sudo find /home/learner/.local/share/font-manager/  -iname 'bl*' 
+sudo find /home/learner/.local/share/  -iname 'bl*' 
+sudo find /home/learner/  -iname 'bl*' 
+sudo find /home/learner/  -iname 'bl*.ttf' 
+fc-match 'blackjack
+'
+fc-list 'BlackJack'
+$fdir=/usr/local/share/fonts/
+fdir=/usr/local/share/fonts/
+sudo find $fdir  -iname 'bl*.ttf' 
+sudo find $fdir|.  -iname 'bl*.ttf' 
+sudo find [$fdir|.]  -iname 'bl*.ttf' 
+sudo find [$fdir,.]  -iname 'bl*.ttf' 
+sudo find {$fdir,.}  -iname 'bl*.ttf' 
+sudo find {$fdir,.}  -iname 'ar*.ttf' 
+$fdir=/usr/local/share/fonts/, /usr/share/fonts/
+$fdir="/usr/local/share/fonts/, /usr/share/fonts/"
+$fdir="/usr/local/share/fonts/|/usr/share/fonts/"
+fdir="/usr/local/share/fonts/|/usr/share/fonts/"
+fdir
+sudo find $fdir -iname 'ar*.ttf' 
+fdir="/usr/local/share/fonts/,/usr/share/fonts/"
+sudo find $fdir -iname 'ar*.ttf' 
+fdir=/usr/local/share/fonts/,/usr/share/fonts/
+sudo find $fdir -iname 'ar*.ttf' 
+fdir=/usr/local/share/fonts/ /usr/share/fonts/
+fdir=/usr/local/share/fonts/;/usr/share/fonts/
+fdir=/usr/local/share/fonts/\,/usr/share/fonts/
+sudo find $fdir -iname 'ar*.ttf' 
+fdir={/usr/local/share/fonts/,/usr/share/fonts/}
+sudo find $fdir -iname 'ar*.ttf' 
+fdir=[/usr/local/share/fonts/,/usr/share/fonts/]
+sudo find $fdir -iname 'ar*.ttf' 
+fdir=Array[/usr/local/share/fonts/,/usr/share/fonts/]
+sudo find $fdir -iname 'ar*.ttf' 
+fdir=Array[/usr/local/share/fonts/ /usr/share/fonts/]
+fdir=Array['/usr/local/share/fonts/' '/usr/share/fonts/']
+fdir=Array('/usr/local/share/fonts/' '/usr/share/fonts/')
+fdir=('/usr/local/share/fonts/' '/usr/share/fonts/')
+fdir
+$fdir
+sudo find $fdir -iname 'ar*.ttf' 
+sudo find $fdir,. -iname 'ar*.ttf' 
+sudo find $fdir|. -iname 'ar*.ttf' 
+sudo find {$fdir,.} -iname 'ar*.ttf' 
+$fdir
+$fdir[0]
+echo $fdir[0]
+echo $fdir
+fdir=('/usr/local/share/fonts/' ,'/usr/share/fonts/')
+echo $fdir
+echo $fdir[0]
+echo $fdir[@]
+d1='/usr/local/share/fonts/'
+d2=/usr/share/fonts
+sudo find {$fdir,$d2} -iname 'ar*.ttf' 
+sudo find {$d1,$d2} -iname 'ar*.ttf' 
+sudo find {$d1,$d2} -iname 'black*.ttf' 
+sudo find {$d1,$d2} -iname 'black*.ttf' -exec rm -i {} \;
+sudo find {$d1,$d2} -iname 'danci*.ttf' -exec rm -i {} \;
+sudo find {$d1,$d2} -iname 'delphine*.ttf' -exec rm -i {} \;
+f=delphine
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f=dkg
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f=dkg*
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f=domes*
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f=el*
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f=fem*
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f=flat*
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+exit
+cd /usr/share/fonts
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+$d1
+d1=/usr/local/share/fonts/
+d2=/usr/share/fonts
+f1=Gard*|itwas
+f1=Gard*,itwas
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f1={Gard*,itwas}
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f1={Gard*,itwas*}
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f1={Gard*,itwas*}
+echo $f1
+f={Gard*,itwas*}
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f={gard*,itwas*}
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f={gard*,itw*}
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f=gard*
+sudo find {$d1,$d2} -iname $f -exec rm -i {} \;
+f=gard*|handle
+f=gard*|handle*
+f=(gard* handle*)
+echo $f
+echo $f[0]
+f=(gard* , handle*)
+echo $f[0]
+echo $f
+f={gard* , handle*}
+f={gard* | handle*}
+f={gard* handle*}
+f=(gard* handle*)
+echo ${f}
+echo ${f[*]}
+echo ${ f[*] }
+echo ${ f[*]}
+echo ${f[*]}
+echo ${f[2]}
+echo ${f[1]}
+echo ${f[0]}
+f=(gard* handle*)
+sudo find {$d1,$d2} -iname 'itw' -exec rm -i {} \;
+sudo find {$d1,$d2} -iname 'itw*' -exec rm -i {} \;
+sudo find {$d1,$d2} -iname '*itw*' -exec rm -i {} \;
+sudo find {$d1,$d2} -iname '*i*' -exec rm -i {} \;
+sudo find {$d1,$d2} -iname '*it*' -exec rm -i {} \;
+sudo find {$d1,$d2} -iname 'it*' -exec rm -i {} \;
+f=(gard* handle*)
+sudo find {$d1,$d2} -iname ${f[*]} -exec rm -i {} \;
+f=(gard* | handle*)
+f=(gard*  handle*)
+sudo find {$d1,$d2} -iname ${f[*]} -exec rm -i {} \;
+f=(gard*,handle*)
+sudo find {$d1,$d2} -iname ${f[*]} -exec rm -i {} \;
+f=(gard*,hand*)
+sudo find {$d1,$d2} -iname ${f[*]} -exec rm -i {} \;
+f=junk*
+sudo find {$d1,$d2} -iname ${f[*]} -exec rm -i {} \;
+f=mark
+f=mark*
+sudo find {$d1,$d2} -iname ${f[*]} -exec rm -i {} \;
+sudo find {$d1,$d2} -iname music* -exec rm -i {} \;
+sudo find {$d1,$d2} -iname pen* -exec rm -i {} \;
+sudo find {$d1,$d2} -iname steve* -exec rm -i {} \;
+sudo find {$d1,$d2} -iname steve*|swift* -exec rm -i {} \;
+sudo find {$d1,$d2} -iname steve*,swift* -exec rm -i {} \;
+sudo find {$d1,$d2} -iname "steve*|swift*" -exec rm -i {} \;
+sudo find {$d1,$d2} -iname "steve* swift*" -exec rm -i {} \;
+sudo find {$d1,$d2} -iname "steve* or swift*" -exec rm -i {} \;
+sudo find {$d1,$d2} -iname "steve*|swift*" -exec rm -i {} \;
+sudo find {$d1,$d2} -iname swift* -exec rm -i {} \;
+sudo find {$d1,$d2} -iname white* -exec rm -i {} \;
+sudo find {$d1,$d2} -iname whi* -exec rm -i {} \;
+sudo find {$d1,$d2} -iname wink* -exec rm -i {} \;
+fc-list 'Graph'
+fc-list 'Consolas'
+irb
+sudo fc-cache -f -v
+top
+irb
+pri
+pry
+irb
+ls /home/learner/Programming/older-debs-cleaner/debs/34.deb 
+dpkg --get-selections 
+dpkg --get-selections | grep mint
+sudo apt-get remove mint-themes
+date
+date --help
+date
+date -0
+date 0
+date %0
+date -r
+date -R
+date -r Programming/
+date -r .bash_aliases 
+date -R
+date 
+date -R --universal
+date -R --universal %D
+date -R --universal +%D
+date -R  +%D
+date  +%D
+date  +%T
+date  --help
+nano .bash_aliases 
+. .bash_aliases 
+nano .bash_aliases 
+. .bash_aliases 
+date -h
+nano .bash_aliases 
+. .bash_aliases 
+date -h
+nano .bash_aliases 
+. .bash_aliases 
+source .bash_aliases 
+. .bash_aliases 
+nano .bash_aliases 
+. .bash_aliases 
+nano .bash_aliases 
+. .bash_aliases 
+date h
+nano .bash_aliases 
+cd /var/lib/gems/1.9.1/gems/ruby-debian-0.3.8/
+ls
+find -iname '*.rb'
+find -iname '*.rb' -exec chmod o+w {} \;
+find -iname '*.rb' -exec sudo chmod o+w {} \;
+find -iname '*.rb' -exec sudo chmod o-w {} \;
+find -iname '*.rb' -exec sudo chmod o+w {} \;
+find -iname '*.rb' -exec sudo chmod -v o+w {} \;
+find -iname '*.rb' -exec sudo chmod -v 777 {} \;
+find -iname '*.bak__' -exec sudo chmod -v 777 {} \;
+find -iname '*.bak___' -exec sudo chmod -v 777 {} \;
+find -iname '*.bak_' -exec sudo chmod -v 777 {} \;
+find -iname '*.rb' -exec sudo chmod -v 644 {} \;
+cd ..
+cp -r ruby-debian-0.3.8/ ~/Programming/
+cd ~/Programming/
+mv ruby-debian-0.3.8/ ~/.gem/ruby/1.9.1/gems/
+ls  ~/.gem/ruby/1.9.1/gems/
+cd  ~/.gem/ruby/1.9.1/gems/
+mkdir ../ruby-debian-0.3.8
+ls
+mv *.* ../ruby-debian-0.3.8/ -v
+mv ** ../ruby-debian-0.3.8/ -v
+ls
+ls -a
+mv ../ruby-debian-0.3.8/ .
+ls
+exit
+cd /
+sudo ln -s /media/windows+vids/ windows
+ls
+cd windows
+ls
+ln -s /windows/dev-tools/ruby-gems-repo/gems/ 
+ls
+rm gems
+cd ~/Links/
+ln -s /windows/dev-tools/ruby-gems-repo/gems/ 
+ls
+cd /
+ln -s /media/linux+custom/ linux
+sudo ln -s /media/linux+custom/ linux
+cd /media/
+ls
+sudo rm linuxmint-17-cinnamon-dvd-32bit.iso/
+sudo rmdir linuxmint-17-cinnamon-dvd-32bit.iso/
+sudo rmdir *
+cd mine2
+ls
+cd mine
+ls
+cd ..
+ls mine
+cd /
+sudo ln -s /media/books+mobile/ books
+ls
+ar --help
+ar p libdrm-nouveau2_2.4.56-1_i386
+ar p ladish_1+dfsg0-4_i386.deb 
+ar 
+ar t ladish_1+dfsg0-4_i386.deb 
+ar t libdrm-nouveau2_2.4.56-1_i386
+tar t libdrm-nouveau2_2.4.56-1_i386
+tar --help
+tar -t libdrm-nouveau2_2.4.56-1_i386
+tar -tf libdrm-nouveau2_2.4.56-1_i386
+tar -tvf libdrm-nouveau2_2.4.56-1_i386
+tar -tvf libdrm-nouveau2_2.4.56-1_i386.deb
+file-roller --help
+file-roller --help-all
+unp
+sudo apt-get install unp
+file -i libdrm-nouveau2_2.4.56-1_i386.deb 
+file -m libdrm-nouveau2_2.4.56-1_i386.deb 
+file -z libdrm-nouveau2_2.4.56-1_i386.deb 
+file -z ladish_1+dfsg0-4_i386.deb 
+file -z libdrm-nouveau2_2.4.56-1_i386.deb 
+unp --help
+unp -s
+unp -U ladish_1+dfsg0-4_i386.deb 
+unp -U libdrm-nouveau2_2.4.56-1_i386
+unp -U libdrm-nouveau2_2.4.56-1_i386.deb 
+dpkg --build .
+cd ..
+dpkg --build libdrm-nouveau2_2.4.56-1_i386/
+suod cp -r PT_Serif/ /usr/share/fonts/truetype/ -v
+suod cp -r PT_Sans/ /usr/share/fonts/truetype/ -v
+ls
+exit
+ls
+sdf
+rmdir *
+find -type d
+find -type d -exec rmdir {} \;
+cd 
+find -type d -exec rmdir {} \;
+gedit ~/.bash_aliases 
+find -iname '*.desktop'
+find -iname '*.desktop' -exec mv {} \;
+ls
+find -iname '*.desktop' -exec mv {} \;
+find -iname '*.desktop' -exec rm {} \;
+source ~/.bash_aliases 
+nano ~/.bash_aliases 
+source ~/.bash_aliases 
+remove_empty_folders 
+nano ~/.bash_aliases 
+source ~/.bash_aliases 
+nano ~/.bash_aliases 
+remove_empty_folders 
+cd .
+cd ..
+ls
+remove_empty_folders 
+cd .local/share/
+find -iname '*okular*'
+cd /usr/share/applications/
+find -iname '*okular*'
+sudo rm kde4/okularApplication_* -v
+cat  kde4/okular.desktop 
+irb
+ls
+move_to_lettered_folder.rb 
+move_to_lettered_folder.rb deb
+touch {1..2}.txt
+touch {1..20}.txt
+move_to_lettered_folder.rb txt
+touch {A..q}.txt
+touch {'A'..'q'}.txt
+touch {"A".."Q"}.txt
+echo ['a'..'z']
+touch 'a'..'z'.txt
+touch {'a'..'z'}.txt
+touch ['a'..'z'].txt
+touch i for i in 'a'..'z'
+touch {a..z}.txt
+move_to_lettered_folder.rb txt
+remove_empty_folders 
+touch {a..Q}.tx
+touch {a..q}.tx
+move_to_lettered_folder.rb 
+irb
+ls
+cd .local/share/
+grep '*XDG*'
+grep '*XDG*' *
+grep '*XDG*' **
+grep '*XDG*' **/*
+grep '*XDG*' cat *
+grep '*XDG*' cat **/*
+cat -R * | grep '*XDG*' 
+grep '*XDG*' cat **/*
+grep '*XDG*' 
+grep '*XDG*' user-places.xbel
+grep '*XDG*' mime/aliases 
+mime/aliases 
+nautilus .
+sudo apt-get install nautilus-renamer 
+nautilus-sendto 
+nautilus-sendto ~/todo.txt
+dpkg -L nautilus-renamer 
+python /usr/share/nautilus-renamer/nautilus-renamer.py 
+python /usr/share/nautilus-renamer/nautilus-renamer.py .
+geidt /usr/share/nautilus-renamer/nautilus-renamer.py .
+subl /usr/share/nautilus-renamer/nautilus-renamer.py .
+python3 /usr/share/nautilus-renamer/nautilus-renamer.py .
+python3 /usr/share/nautilus-renamer/nautilus-renamer.py 
+cd 
+cd Programming/older-debs-cleaner/debs/
+ls
+move_to_lettered_folder.rb 
+move_to_lettered_folder.rb deb
+cd 
+cd -
+sudo gem install libarchive
+sudo gem install filemagic
+ls ~/Links/gems/ruby-filemagic-0.6.3.gem 
+sudo gem install mimemagic
+backGems.sh 
+irb
+nano .profile 
+
+cd $icons_d
+ls
+gsettings set org.gnome.desktop.interface icon-theme 'Mint-X-Dark'
+gsettings set org.gnome.desktop.interface icon-theme 'Mint-Dark'
+gsettings set org.gnome.desktop.interface icon-theme 'Mint-X-Dark'
+gsettings set org.gnome.desktop.interface icon-theme 'Faenza-Dark'
+sudo gem uninstall debeasy
+cd $debs_d
+ls
+pwd
+cd Trusty-New/
+pwd
+cd $gems_d
+ls
+gem server
+exit
+gem build 
+gem build debeasy.gemspec 
+mv debeasy $gems_d -v
+mv -v debeasy $gems_d 
+mv -v debeasy $gems_d/
+mv -v ./debeasy-0.0.7.gem $gems_d/
+cd ..
+cd older-debs-cleaner/
+ls
+cd vendor/cache/
+ls
+cp -i *.gem $gems_d -v
+exit
+backGems.sh 
+cd $gems_d
+ls
+ls debeasy-0.0.7.gem 
+sudo gem install --local debeasy-0.0.7.gem 
+ls
+apt-cache policy foreman
+cd ~/Programming/
+ls
+git clone git@github.com:AnwarShah/debeasy.git
+sudo cp debeasy/lib/debeasy/package.rb /var/lib/gems/1.9.1/gems/debeasy-0.0.7/lib/debeasy/package.rb -v
+fontforge 
+fontforge -h
+fontforge --help
+cd Proxima_Nova/
+ls
+fontforge ProximaNova-Regular.ttf 
+apt-cache show fontforge-nox 
+fdupes 
+fdupes .
+fdupes --helpp
+fdupes --help
+fdupes -d
+fdupes -d .
+fc-list 'Proxi'
+fc-list | grep 'Proxi'
+rm /home/learner/.local/share/fonts/ProximaNovaRegular.ttf:
+rm /home/learner/.local/share/fonts/ProximaNovaRegular.ttf
+fc-list 
+fc-list  | grep :style
+fc-list  | grep :style=".*"
+fc-list  | grep :style="Thin"
+fc-list  | grep :style="Light"
+fc-list  | grep "Prox"
+rm /home/learner/.local/share/fonts/ProximaNova-Thin.ttf
+fc-list  | grep "Prox"
+fc-list  | grep :style="Semi"
+fc-list  | grep "Prox"
+rm /home/learner/.local/share/fonts/ProximaNova-Thin.ttf
+gsettings set org.gnome.desktop.interface font-name 'Proxima Nova-Regular'
+gsettings set org.gnome.desktop.interface font-name 'Proxima Nova '
+gsettings set org.gnome.desktop.interface font-name 'Proxima Nova 11'
+fc-list  | grep :style="RegularIta"
+fc-list  | grep :style="Regular-Ita"
+fc-list  | grep :style="Italic"
+suod cp -r Ambiance $themes_d -v
+suod cp -r Radiance/ $themes_d -v
+rm -r Ambiance
+rm -r Radiance/
+tar --help | head
+tar cf * 
+tar -cf * 
+tar -crf * 
+tar -cf * 
+gunzip --help
+gzip --help
+gzip * 
+cd ..
+ls
+gzip Ambiance/* 
+ls
+gzip Ambiance 
+gzip --help
+gzip -r Ambiance 
+gzip -dr Ambiance 
+gzip -r Ambiance ambi.tar.gz
+gzip -dr Ambiance 
+dpkg-name *
+move_to_lettered_folder.rb 
+dpkg -L googlefontdirectory-tools 
+/usr/share/googlefontdirectory-tools/tools/nonhinting/otf2sfd.py ProximaNova-Regular.otf 
+/usr/share/googlefontdirectory-tools/tools/nonhinting/sfd2ttf.py ProximaNova-Regular.otf 
+fc-list | grep 'Prox'
+sudo rm /usr/local/share/fonts/p/ProximaNova_Regular.ttf
+pyrenamer 
+nano .profile 
+nano ~/.bash_profile 
+nano ~/.bash_aliases 
+exit
+/usr/share/googlefontdirectory-tools/tools/nonhinting/otf2sfd.py "Mark Simonson - Proxima Nova Alt Black.otf" | /usr/share/googlefontdirectory-tools/tools/nonhinting/sfd2ttf.py 
+ls *.sdf
+ls *.otf
+basename "Mark Simonson - Proxima Nova Black.otf" 
+name "Mark Simonson - Proxima Nova Black.otf" 
+man basename
+basename otf "Mark Simonson - Proxima Nova Black.otf" 
+man basename
+basename  "Mark Simonson - Proxima Nova Black.otf" otf
+basename  "Mark Simonson - Proxima Nova Black.otf" .otf
+bash convert.sh 
+for f in `ls *.otf`; do end; done
+for f in `ls *.otf`; do ; done
+for f in `ls *.otf`; do  done
+for f in `ls *.otf` do  done; done
+for f in `ls *.otf` do  done
+for f in `ls *.otf` ; echo 'what'
+for f in `ls *.otf` do ; echo 'what'
+for f in `ls *.otf` do ; echo 'what'; done
+for f in `ls *.otf` do; echo what
+f in `ls *.otf`
+for f in `ls *.otf`; echo "ldjsfl"
+for f in `ls *`; echo "jlsd"
+for f in `ls *`; echo "jlsd";
+help
+for f in `ls *`;  do echo 'sjdlf'; done
+for f in `ls *`; echo 'sjdlf'
+for f in `ls *`; do echo sdlfs; end; done
+bash convert.sh 
+for f in `ls *`; echo 'sjdlf'
+for f in `ls *`; echo 'sjdlf'; done
+for f in `ls *`; do echo 'sjdlf'; done
+bash convert.sh 
+for f in `ls *`; do echo 'sjdlf'; done
+bash convert.sh 
+ls *.otf
+ls --help
+ls *.otf -N
+bash convert.sh 
+find -iname '*otf'
+bash convert.sh 
+find -iname '*otf'
+find -iname '*otf' -print
+find -iname '*otf' -print0
+find -iname '*otf' -print
+bash convert.sh 
+find -iname '*otf' -print 
+find 
+find -h
+fidn --help
+find --help
+bash convert.sh 
+find --help
+bash convert.sh 
+find -iname '*.otf'
+find -iname '*.otf' -exec /usr/share/googlefontdirectory-tools/tools/nonhinting/otf2sfd.py {} \;
+bash convert.sh 
+exit
+suod cp -r Caecilia_LT_Std/ /usr/share/fonts/truetype/ -v
+sudo rm ‘/usr/share/fonts/truetype/Caecilia_LT_Std/f_00056c.otf.ttf’
+sudo rm /usr/share/fonts/truetype/Caecilia_LT_Std/f_00056c.otf.ttf
+gsettings list-recursively | grep 'Local'
+gsettings list-recursively | grep 'Loca'
+gsettings list-recursively | grep 'loca'
+gsettings list-recursively | grep 'location'
+gsettings list-recursively | grep 'location-bar'
+gsettings set org.gnome.nautilus.window-state start-with-location-bar true
+gsettings set org.gnome.nautilus.preferences always-use-location-entry false
+gsettings set org.gnome.desktop.interface  icon-theme  'Mint-X'
+gsettings set org.gnome.desktop.interface  icon-theme  'Mint-X-Dark'
+update-icon-caches
+update-icon-caches $icons_d 
+update-icon-caches /usr/share/icons/Deepin/
+sudo update-icon-caches /usr/share/icons/Deepin/
+sudo update-icon-caches /usr/share/icons/Mint-X
+sudo update-icon-caches /usr/share/icons/Mint-X-Dark/
+nano ~/.bash_profile 
+nano ~/.bash_completion 
+nano ~/.profile 
+. ~/.profile 
+cd $font_d
+ls
+
+pwd
+pyrenamer -r pwd
+fontimage 
+fontimage --help
+fontforge --help
+ls
+nano .profile 
+. .profile 
+cd $font_d
+ls
+cd truetype/
+ls
+sudo mkdir proxima-nova-all
+cd 
+cd '/media/linux+custom/fonts/Proxima_Nova/Proxima Nova 120' 
+cd ..
+ls
+sudo cp Proxima\ Nova\ 120/* /usr/share/fonts//truetype/proxima-nova-all/ -v
+fc-list | grep 'Prox'
+sudo apt-get remove bluedevil bluez-alsa bluez-*
+sudo apt-get remove bluedevil bluez-alsa bluez
+sudo apt-get remove bluez-alsa bluez
+sudo apt-get remove bluez-alsa 
+sudo apt-get remove bluez-gstreamer bluez-cups 
+sudo service bluetooth force-reload
+sudo service bluetooth restart
+sudo apt-get remove blueman 
+sudo service bluetooth restart
+sudo reboot
+sudo apt-get remove bluedevil 
+sudo update-alternatives --config x-cursor-theme 
+exit
+obex-data-server 
+obexpush
+obexpushd 
+gsettings set org.gnome.desktop.interface font-name 'Proxima Nova Alt'
+gsettings set org.gnome.desktop.interface font-name 'Proxima Nova Alt 11'
+gsettings set org.gnome.desktop.interface font-name 'Abel 11'
+gsettings set org.gnome.desktop.interface font-name 'MerriWeather 11'
+gsettings set org.gnome.desktop.interface font-name 'MerriWeather Sans 11'
+ln -s /media/books+mobile/APK/ 
+ls
+sudo nano /etc/apt/sources.list
+cd /
+cd 
+mkdir shortcuts
+ls
+cd shortcuts/
+cd /
+sudo unlink linux
+sudo ln -s /media/linux+custom/linux/ 
+ls
+cd linux/repo/
+ls
+suod nano /etc/apt//sources.list
+cd ~/shortcuts/
+ls
+cd repo
+ls
+mv Trusty trusty
+mv Trusty-New/ trusty_new
+ls
+sudo apt-get update
+irb
+tar --help
+gzip --help
+gzip -d aarddict.android-20150428-113249.tar.gz 
+remove_empty_folders 
+gzip -d ccc71.at.free-811e2cc1c700b79aeeab5b54c46c54ec.apk.gz 
+ls
+gunzip --help
+find Mobile/ -iname '*apk.gz'
+find Sola_Roms/ -iname '*apk.gz'
+find APK/ -iname '*apk.gz'
+cd ../mine
+ls
+find  -iname '*apk.gz'
+cd ../mine2
+ls
+ln -s Books/java 
+rm Books
+rm java 
+ln -s /media/books+mobile/Books/java
+gedit cs_books.desktop 
+gedit ruby_books/
+ls java_books/
+cd java_books/
+s
+ls
+pyrenamer -r .
+pyrenamer -r pwd
+pyrenamer -r .
+dpkg -L pyrenamer 
+cd /usr/share/pyshared/pyrenamer/
+ls
+gedit pyrenamer.py 
+mkdir 
+mkdir test
+ls
+cd test
+ls
+touch 1_2_3-32-df\ sdf.txt
+ls
+irb
+cd test/
+ls
+gedit newname = File.basename(f).gsub('_','')
+subl filerename.rb
+ruby filerename.rb 
+ls
+mv 123_32_df_sdf_txt 123_32_df_sdf.txt
+irb
+ruby filerename.rb 
+ls
+mv 123_32_df_sdf 123_32_df_sdf\ jsdkl.txt
+ruby filerename.rb 
+ls
+mv 123_32_df_sdf 123_32_df_sdf_jsdkl.txt 123_32_df_sdf_jsdkl---.txt
+mv 123_32_df_sdf 123_32_df_sdf_jsdkl.txt 123_32_df_sdf_jsdkl---d.txt
+mv 123_32_df_sdf 123_32_df_sdf_jsdkl.txt 123_32_l---d.txt
+ls
+mv 123_32_df_sdf 123_32_l---d.txt
+mv 123_32_df_sdf_jsdkl.txt 123_32_l---d.txt
+ls
+ruby filerename.rb 
+ls
+ruby filerename.rb 
+ls
+find -iname '*apk.gz'
+find -iname '*apk.gz' -exec gzip -d {} \;
+find -iname '*apk.gz' -exec gzip -d {} ; rm {} \;
+find -iname '*apk.gz' -exec gzip -d {} \;
+touch extract.sh
+gedit extract.sh 
+gedit extract.sh &
+bash extract.sh 
+find -iname '*apk.tar'
+find -iname '*apk.tar*'
+find -iname '*apk.gz*'
+gunzip --help
+gunzip zip.me-38503b85e215a33663e17cdcacab1818.apk.gz 
+bash extract.sh 
+find
+gunzip com.actionlauncher.playstore-f9609793ef6880dafa0d28c9b546dbe4.apk.gz 
+gunzip com.call.recorder-eae7d7a8337d9b8d176bbece06288801.apk.gz -v
+bash extract.sh 
+ls
+find -iname '*.apk.gz'
+find -iname '*.apk.gz*'
+find -iname '*.apk'
+find -iname '*.apk' -exec md5sum {} \; > report.txt
+gedit report.txt 
+mv report.txt ~/Desktop/
+for i in `find -iname '*.apk.gz'`; do gunzip $i; done
+cd Desktop/
+for i in `find -iname '*.apk.gz'`; do gunzip $i; done
+bash sdf 
+for i in `find -iname '*.apk.gz'`; do gunzip $i; rm $i; done
+rm sdf 
+cd test/
+ruby filerename.rb 
+mv filerename.rb create_craps.rb
+mv create_craps.rb clear_craps.rb
+mv clear_craps.rb ~/bin/
+ls
+rm
+rm 123_32_l_d.txt 
+cd ..
+rmdir test/
+ls
+chmod +x ~/bin/clear_craps.rb 
+cd F.A.F/java_books/
+ls
+clear_craps.rb 
+sub ~/bin/clear_craps.rb 
+subl ~/bin/clear_craps.rb 
+clear_craps.rb 
+ls
+subl ~/bin/clear_craps.rb 
+ls
+clear_craps.rb 
+ls
+clear_craps.rb 
+ls
+clear_craps.rb 
+ls
+clear_craps.rb 
+ls
+clear_craps.rb 
+ls
+clear_craps.rb 
+ls
+subl ~/bin/clear_craps.rb 
+clear_craps.rb 
+subl ~/bin/clear_craps.rb 
+clear_craps.rb 
+clear_craps.rb 
+subl ~/bin/clear_craps.rb 
+clear_craps.rb 
+irb
+ln -s ~/Programming/my-scripts/clear_craps.rb 
+ln -s ~/Programming/my-scripts/move_to_lettered_folder.rb 
+irb
+pry
+ruby analyze.rb 
+pry
+ruby analyze.rb 
+cd Desktop/
+ls
+ruby analyze.rb 
+irb
+ruby analyze.rb 
+clear_craps.rb 
+sudo apt-get install gnome-system-monitor 
+sudo apt-get install gnome-system-monitor -t trusty
+apt-cache policy gnome-system-monitor 
+peazip -style=cleanlooks
+ls /usr/local/lib/
+ldconfig
+ls /usr/local/share/PeaZip/
+sudo cp /usr/local/share/PeaZip/libQt4Pas.so /usr/local/lib/ -v
+cd /usr/local/lib
+ls
+sudo ldconfig
+peazip -style=cleanlooks
+find --help
+man find
+find -iname '*.deb'
+cd Programming/python-apt/python-apt-0.9.4/
+ls
+cd ..
+ls
+cd python-apt-0.9.4/tests/
+ls
+cd data/
+ls
+cd test_debs/
+ls
+nautilus .
+cd ~/Downloads/FlareGet/
+ls
+find -iname '*.deb'
+cd Applications/
+ls
+gdebi Vivaldi_TP3.1.0.162.9-1_i386.deb 
+du Vivaldi_TP3.1.0.162.9-1_i386.deb 
+du -h Vivaldi_TP3.1.0.162.9-1_i386.deb 
+ls
+rm Vivaldi_TP3.1.0.162.9-1_i386.deb 
+cat ~/bin/backGems.sh 
+mv *.apk $apt_d -v
+ls
+nautilus .
+sudo nano /etc/apt/sources.list
+sudo nano /etc/fstab
+sudo unlink /linux
+ls 
+sudo mkdir /linux
+sudo rm /.kde/ -v
+sudo rm /.kde/ -r
+cd -
+cd ~/shortcuts/
+ls
+sudo umount /media/linux+custom 
+sudo mount /linux/
+sudo ln -s /media/linux+custom/ /linux/
+remove_empty_folders 
+ln -s /linux/linux 
+ln -s /books/Books/linux/ linux_books
+sudo apt-get autoremove appgrid 
+lsd
+ls
+exit
+find -iname '*guake*'
+cd .gconf/apps/
+ls
+rm -r guake/
+ls
+rm -r blueman/
+rm -r compiz-1/
+rm -r hamster-applet/
+rm -r nm-applet/
+rm -r pyrenamer/
+rm -r pdfmod/
+rm -r meld/
+ls
+rm -r .
+cd ..
+ls
+pwd
+rm -r apps/
+
+rm -r desktop/
+exit
+unlink linux+custom/
+unlink rmdir
+sudo rmdir linux+custom/
+ln -s /linux/ linux+custom
+sudo ln -s /linux/ linux+custom
+gedit ~/.config/user-dirs.dirs
+xdg-user-dirs-update 
+xdg-user-dirs-gtk-update 
+hg status
+hg log
+hg status
+hg push 
+sudo apt-get install midori
+apt-cache policy midori
+sudo apt-get install midori
+Install: sudo add-apt-repository ppa:midori/midori-dev
+sudo apt-get update
+sudo apt-get install midori
+irb
+sudo add-apt-repository -y ppa:midori/midori-dev
+cat /etc/lsb-release 
+sudo nano /etc/lsb-release 
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=14.04
+DISTRIB_CODENAME=trusty
+DISTRIB_DESCRIPTION="Linux Mint 17 Qiana"
+sudo add-apt-repository ppa:midori/midori-dev
+update-repo midori-midori-dev-trusty.list 
+sudo add-apt-repository ppa:midori/ppa
+update-repo midori-ppa-trusty.list 
+apt-cache policy midori
+sudo nano /etc/apt//sources.list.d/midori-midori-dev-trusty.list
+apt-cache policy midori
+sudo apt-get install midori
+irb
+cd shortcuts/
+ls
+ln -s linux/repo/ 
+ls
+mv repo debs_repo
+ls
+cd debs_repo
+ls
+cd trusty
+cd ../trusty_new/
+ls
+move_to_lettered_folder.rb 
+multi_version_remover.rb 
+cd ..
+cd trusty
+multi_version_remover.rb 
+cd shortcuts/debs_repo/trusty_new/
+cd -
+cd shortcuts/
+ln -s /linux/linux/repo/trusty
+ln -s /linux/linux/repo/trusty_new/
+unlink debs_repo/
+ls
+unlink debs_repo
+ls
+cd trusty
+multi_version_remover.rb 
+cd ..
+mv trusty_new trnew
+ls
+cd trnew/
+ls
+multi_version_remover.rb 
+sudo apt-get install nemo
+apt-cache policy gnome-system-monitor 
+apt-cache policy 
+sudo nano /etc/apt/sources.list
+sudo apt-get update
+apt-cache policy 
+apt-cache policy gnome-system-monitor 
+sudo apt-get install gnome-system-monitor=3.8.2*
+sudo apt-get install gnome-system-monitor=3.8.2.1-2ubuntu1 0
+sudo apt-get install gnome-system-monitor=3.8.2.1-2ubuntu1 
+sudo apt-get --reinstall install gnome-system-monitor=3.8.2.1-2ubuntu1 
+apt-cache policy gnome-system-monitor 
+backDebs.sh 
+cat ~/bin/backDebs.sh 
+nano ~/bin/backDebs.sh 
+backDebs.sh 
+nano ~/bin/backDebs.sh 
+backDebs.sh 
+cat >> report
+cat report 
+sudo apt-get --reinstall install gnome-system-monitor=3.8.2.1-2ubuntu1 
+sudo apt-get --allow-unauthenticated install gnome-system-monitor=3.8.2.1-2ubuntu1 
+bash report 
+ls /linux/linux/repo/trusty_new/gdebi-test1.deb
+fc-match 'Mukti Narrow'
+nano .config/fontconfig/fonts.conf 
+nano .config/font-manager/local.conf-previous 
+nano .config/font-manager/conf.d/myconf.conf 
+cp .config/font-manager/conf.d/myconf.conf .config/fontconfig/fonts.conf 
+cd Programming/older-debs-cleaner/
+ls
+cp /media/windows+vids/dev-tools/ruby-gems-repo/gems//ruby-debian-0.3.8.gem .
+ls
+gem unpack ruby-debian-0.3.8.gem 
+mv ruby-debian-0.3.8 ruby-debian
+rm ruby-debian-0.3.8.gem 
+cd $gems_d
+ls
+cd ..
+ls
+gem list build
+backGems.sh 
+cat ~/bin/backGems.sh 
+backGems.sh 
+sudo gem generate_index -d .
+gem server
+cd
+cd Programming/older-debs-cleaner/
+gem spec /media/windows+vids/dev-tools/ruby-gems-repo/gems//ruby-debian-0.3.8.gem --ruby > ruby-debian/ruby-debian.gemspec
+cd ruby-debian/
+ls
+ls examples/
+cd examples/
+ls
+dpkg.rb
+ruby dpkg.rb
+ruby dpkg.rb --list
+ruby dpkg.rb --get-selections
+ruby dpkg.rb --list-files
+ruby dpkg.rb --list-files nautilus
+ruby dpkg.rb --listfiles nautilus
+ruby dpkg.rb --status nautilus
+ruby list_packages.rb 
+ruby list_packages.rb --print-architecture
+man ruby-debian
+cd 
+ls
+cd -
+ls
+cd ..
+ls
+cd bin/
+ls
+dpkg-ruby 
+dpkg-ruby --help
+man dpkg-ruby
+sudo apt-get install dpkg-ruby -V
+man dpkg-ruby
+dpkg-ruby /linux/linux/repo//trusty/Packages
+dpkg-ruby /linux/linux/repo/trusty/Packages
+dpkg-ruby --help
+dpkg-ruby -f /linux/linux/repo/trusty/Packages
+dpkg-ruby -f /linux/linux/repo/trusty/Packages > pp
+du -h pp 
+man dpkg-ruby 
+dpkg-ruby -f /linux/linux/repo/trusty/Packages version
+man dpkg-ruby 
+dpkg-ruby -f /linux/linux/repo/trusty/Packages fieldname:version
+dpkg-ruby -f /linux/linux/repo/trusty/Packages fieldname:Filename
+dpkg-ruby -f /linux/linux/repo/trusty/Packages fieldname:Filename:
+dpkg-ruby -f /linux/linux/repo/trusty/Packages fieldname:'Filename:'
+dpkg-ruby -f /linux/linux/repo/trusty/Packages Filename:
+man dpkg-r
+man dpkg-ruby 
+dpkg-ruby -f /linux/linux/repo/trusty/Packages -n 1
+man ruby-debian
+dpkg -L ruby-debian 
+apt-cache depends dpkg-rub
+apt-cache depends dpkg-ruby 
+dpkg -L ruby-debian 
+cat /usr/share/doc/ruby-debian/examples
+cat /usr/share/doc/ruby-debian/examples/list_packages.rb 
+cd ..
+ls
+cd debian/source/
+cd ..
+ls
+cd ..
+ls
+ls ext/debian_version/extconf.rb 
+ls lib/debian
+ls
+cd ..
+cd ruby-debian/lib/
+ls
+ruby debian.rb debian
+irb
+sudo fc-cache -f -v
+dpkg -L nautilus-renamer 
+dpkg -S /usr/share/fonts/truetype/ttf-indic-fonts-core/
+apt-cache policy ttf-indic-fonts-core
+dpkg-repack ttf-indic-fonts-core
+sudo dpkg-repack ttf-indic-fonts-core
+sudo apt-get purge ttf-indic-fonts-core
+sudo apt-get remove dpkg-ruby 
+sudo apt-get purge ruby-debian
+docs rubydoc
+docr
+mkdir rubydoc
+docr ruby
+docr rubydoc/
+cd rubydoc/
+gedit Rakefile 
+rake build
+rake build --trace
+লস
+rake build --trace
+ls
+ls sources/
+cat Rakefile 
+subl Rakefile 
+ls /media/windows+vids/dev-tools/Ruby/rvm_archives/ruby-2.2.0.tar.bz2 
+rake build
+rake build --trace
+source ~/.rvm/scripts/rvm
+rake build --trace
+rvm use 2.2.0
+rake build --trace
+gem install --local /media/windows+vids/dev-tools/ruby-gems-repo/gems//doc-0.4.1.gem 
+gem install --local /media/windows+vids/dev-tools/ruby-gems-repo/gems//net-ftp-list-3.2.8.gem 
+gem install --local /media/windows+vids/dev-tools/ruby-gems-repo/gems//doc-0.4.1.gem 
+gem install --local /media/windows+vids/dev-tools/ruby-gems-repo/gems//progress-2.4.0.gem 
+gem install --local /media/windows+vids/dev-tools/ruby-gems-repo/gems//doc-0.4.1.gem 
+gem install --local /media/windows+vids/dev-tools/ruby-gems-repo/gems//fspath-2.1.1.gem 
+gem install --local /media/windows+vids/dev-tools/ruby-gems-repo/gems//doc-0.4.1.gem 
+gem install --local /media/windows+vids/dev-tools/ruby-gems-repo/gems//sdoc-0.4.1.gem 
+gem install --local /media/windows+vids/dev-tools/ruby-gems-repo/gems//doc-0.4.1.gem 
+gem install --local /media/windows+vids/dev-tools/ruby-gems-repo/gems//sdoc-0.2.20.gem 
+gem install --local /media/windows+vids/dev-tools/ruby-gems-repo/gems//rdoc-2.4.3.gem 
+gem install --local /media/windows+vids/dev-tools/ruby-gems-repo/gems//sdoc-0.2.20.gem 
+gem install --local /media/windows+vids/dev-tools/ruby-gems-repo/gems//doc-0.4.1.gem 
+rake build
+ruby2.0 
+rake build
+gem list ruby
+gem install --local /media/windows+vids/dev-tools/ruby-gems-repo/gems//rubygems-update-2.4.6.gem 
+rake build
+rake sources/ruby-2.2.0/
+rake build sources/ruby-2.2.0/
+fc-match 'Mukti Narrow'
+ri Array#drop
+ruby docs generate
+rvm docs generate
+rvm use 2.2
+fc-list | grep -ni 'proxima'
+fc-list | grep -i 'proxima'
+sudo rm /usr/local/share/fonts/m/Mark_Simonson___Proxima_Nova_Bold.otf
+fc-list | grep -i 'scosf'
+fc-list | grep -i 'extra'
+fc-list | grep -i 'extra+proxima'
+fc-list | grep -i 'extra'
+fc-list | grep -i 'Proxima_Nova_Alt_Extra_'
+fc-list | grep -i 'Proxima_Nova_Alt_Extra_' | cut -d ':'
+fc-list | grep -i 'Proxima_Nova_Alt_Extra_' | cut -d ':' -f 1
+fc-list | grep -i 'Proxima_Nova_Alt_Extra_' | cut -d ':' -f 1 | rm {} \;
+fc-list | grep -i 'Proxima_Nova_Alt_Extra_' | cut -d ':' -f 1 | rm {} 
+fc-list | grep -i 'Proxima_Nova_Alt_Extra_' | cut -d ':' -f 1 | rm 
+fc-list | grep -i 'Proxima_Nova_Alt_Extra_' | cut -d ':' -f 1 | rm --help
+fc-list | grep -i 'Proxima_Nova_Alt_Extra_' | cut -d ':' -f 1 | xargs rm 
+sudo fc-list | grep -i 'Proxima_Nova_Alt_Extra_' | cut -d ':' -f 1 | xargs rm 
+sudo fc-list | grep -i 'Proxima_Nova_Alt_Extra_' | cut -d ':' -f 1 | xargs sudo rm 
+sudo fc-list | grep -i 'Proxima_Nova_Alt_Extra_' | cut -d ':' -f 1 | xargs sudo rm -v
+sudo fc-list | grep -i 'Proxima_Nova_Alt_Extra_' | cut -d ':' -f 1 
+ls
+sudo fc-list | grep -i 'Proxima_Nova_Alt_Extra_' 
+sudo fc-list | grep  'ScOsf' 
+sudo fc-list | grep  'ScOsf' | cut -d ':' -f 1
+sudo fc-list | grep  'ScOsf' | cut -d ':' -f 1 | xargs rm -v
+sudo fc-list | grep  'ScOsf' | cut -d ':' -f 1 | sudo xargs rm -v
+sudo gem install doc
+backGems.sh 
+sudo fc-list | grep  'Extra' 
+sudo fc-list | grep  '_Extra' 
+sudo fc-list | grep  'Nova_Extra' 
+sudo fc-list | grep  'Nova_Extra_Condensed' 
+sudo fc-list | grep  'Nova_Extra_Condensed' | cut -d ':' -f 1
+sudo fc-list | grep  'Nova_Extra_Condensed' | cut -d ':' -f 1 | xargs suod rm -v
+sudo fc-list | grep  'Nova_Extra_Condensed' | cut -d ':' -f 1 | xargs sudo rm -v
+ruby2.0 
+ruby2.0 --version
+ruby2.2 --version
+source ~/.rvm/scripts/rvm 
+ruby2.2 --version
+rvm use 2.2
+rvm use 2.2.0
+ruby --version
+ruby use system
+ruby use 1.9.0
+ruby use 1.9.1
+rmv use 1.9.1
+rvm use 1.9.1
+rvm use use
+rvm use system
+ruby --version
+ruby1.9.1 
+backGems.sh 
+du -h /var/lib/gems/1.9.1/cache/rubygems-update-1.8.25.gem
+sudo gem install /media/windows+vids/dev-tools/ruby-gems-repo/gems//rubygems-update-2.4.7.gem 
+irb
+ln -s /media/windows+vids/dev-tools/
+mv dev-tools shortcuts/
+ls shortcuts/dev-tools/Ruby/rvm_archives/
+10041514 / 1024
+(10041514 / 1024)
+`10041514 / 1024`
+help
+((10041514 / 1024))
+echo ((10041514 / 1024))
+irb
+ln -s /media/windows+vids/dev_tools/ruby
+ln -s /media/windows+vids/dev_tools/
+ln -s /media/windows+vids/dev_tools/ruby-gems-repo/gems/
+cd rubydoc/
+ls
+cd docs/
+ls
+cd ../sources/ruby-
+cd ../sources/
+ls
+ls ruby-2.2.0/
+ls
+rm -r ruby-2.2.0/
+exit
+ls
+cd Programming/older-debs-cleaner/debs/
+ls
+pwd
+cp /linux/linux/repo/trusty_new/L/libegl1-mesa_10.3.0-0ubuntu2intel1_i386.deb ~/Programming/older-debs-cleaner/
+mkdir ~/Programming/older-debs-cleaner/testdata
+cd /media/mine2/RubyMine-7.0.4/rb/gems/
+ls
+cp *.gem -u -i $gems_d 
+cp *.gem -u -i /media/windows+vids/dev_tools/ruby-gems-repo/gems/  
+cp *.gem -u -v -i /media/windows+vids/dev_tools/ruby-gems-repo/gems/  
+cp *.gem  -v -i /media/windows+vids/dev_tools/ruby-gems-repo/gems/  
+du -h *.gem
+exit
+cd shortcuts/
+ls
+mv dev-tools dev_tools
+mv dev_tools devtools
+ls
+mv  devtools dev_tools
+cd dev_tools
+ls
+mv Ruby ruby
+ls
+cd ruby
+ls
+basename ruby-1.9.3-p484.tar.bz2.crdownload 
+path ruby-1.9.3-p484.tar.bz2.crdownload 
+ls
+cd ..
+ls
+mv ruby Ruby
+ls
+du -h Ruby/ruby-1.9.3-p484.tar.bz2.crdownload 
+cd Ruby/
+ls
+cp ruby-1.9.3-p484.tar.bz2.crdownload ruby-1.9.3-p484.tar.bz2
+wget -c http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p484.tar.bz2
+irb
+exit
+cd rubydoc/sources/
+cd ..
+rake build
+gedit Rakefile 
+rake build
+gedit Rakefile 
+rake build
+gem update --system 1.8.25
+sudo gem update --system 1.8.25
+rake build
+gedit Rakefile 
+rake build
+ls
+ls sources/
+ls docs/
+cd docs/gem.AptDownloader-1.0.2/
+ls
+xdg-open index.html
+ls
+cd ..
+ls
+cd ..
+ls
+rm -r docs/
+ls sources/
+source ~/.rvm/scripts/rvm 
+rvm default 2.2.0
+rvm --version
+ruby --version
+rake build
+backGems.sh 
+gem install /var/lib/gems/1.9.1/cache/rubygems-update-2.4.7.gem
+rake build
+gem install /var/lib/gems/1.9.1/cache/rubygems-update-1.8.25.gem 
+rake build
+gedit Rakefile &
+rake build
+gedit Rakefile &
+rake build
+gedit Rakefile &
+rake build
+rvm use system
+ruby --version
+gedit Rakefile &
+rake build
+gedit Rakefile &
+rake build
+ls
+ls public/
+cd ~/Programming/older-debs-cleaner/
+mv testdata/34.deb debs/
+sudo gem uninstall ruby-debian
+indicator-netspeed
+irb
+cd Programming/older-debs-cleaner/
+cd ruby-debian/
+irb
+gem pack ruby-debian.gemspec 
+gem build ruby-debian.gemspec 
+ls
+sudo gem install ruby-debian-0.3.8.gem 
+irb
+cd ..
+ls
+ruby test.rb 
+dpkg-ruby 
+dpkg-ruby -h
+dpkg-ruby -d 
+man dpkg-ruby
+gnome-panel
+nano ~/.profile
+. ~/.profile
+cp /media/windows+vids/dev_tools/ruby-gems-repo/gems//ruby-debian-0.3.8.gem .
+gem unpack ruby-debian-0.3.8.gem 
+ls ruby-debian-0.3.8
+gem spec ruby-debian-0.3.8.gem 
+gem spec ruby-debian-0.3.8.gem > ruby-debian-0.3.8/ruby-debian-0.3.8.gemspec
+cd ruby-debian-0.3.8/
+gem build ruby-debian-0.3.8.gemspec 
+sudo gem uninstall ruby-debian
+sudo instal ruby-debian-0.3.8.gem
+sudo install ruby-debian-0.3.8.gem
+sudo gem install ruby-debian-0.3.8.gem
+cd ruby
+cd rubydoc/
+nano Rakefile 
+rake build
+ruby --version
+cat Rakefile 
+ls
+ruby --version
+ruby 
+cp /linux/linux/repo//trusty_new/F/foreman_0.75.0_all.deb ~/Programming/older-debs-cleaner/testdata/
+irb
+kill -9 -1
+sudo apt-get install mate-desktop mate-session-manager mate-common mate-control-center 
+apt-cache policy docbook
+apt-get download docbook
+sudo apt-get --allow-unauthenticated install mate-desktop mate-session-manager mate-common mate-control-center 
+apt-cache rdepends libavcodec-extra-54
+ruby --version
+source ~/.rvm/scripts/rvm 
+ruby --version
+rvm use 2.2.0
+irb
+pri
+priy
+pry
+guake
+sudo apt-get install mate-themes 
+sudo apt-get install mate-themes -t ubuntu-local
+apt-cache policy mate-themes 
+sudo apt-get install mate-desktop-common 
+sudo apt-get install mate-desktop
+sudo apt-get install mate-icon-theme 
+sudo apt-get install mate-themes 
+find $debs_d 
+find /linux/linux/repo/ -iname '*menta*'
+find /linux/linux/repo/ -iname '*mate*'
+sudo apt-get install mint-meta-mate 
+sudo apt-get install mate-session-manager 
+sudo apt-get install mate-settings-daemon
+sudo apt-get install mate-terminal
+sudo apt-get install mate-themes 
+sudo apt-get install mate-netspeed mate-system-tools
+sudo apt-get install mate-themes 
+sudo apt-get remove lubuntu-core lxde-core lxde-common 
+sudo apt-get autoremove lxsession-data lxmenu-data lxinput lxrandr lxtask lxshortcut lxappearance-obconf lxlauncher lxpanel
+ccsm
+gtk-window-decorator --replace
+sudo apt-get install compiz compiz-core compiz-gnome compiz-plugins compiz-plugins-default compiz-plugins-main compiz-plugins-main-default compizconfig-backend-gconf compizconfig-settings-manager libcompizconfig0 libdecoration0 python-compizconfig
+compiz --replace
+cat >> /usr/local/bin/startcompiz
+suod cat >> /usr/local/bin/startcompiz
+sudo cat >> /usr/local/bin/startcompiz
+cat << jksdf
+lksdf
+jskldf
+
+cat >> jsdffsdf.txt
+cat jsdffsdf.txt 
+rm jsdffsdf.txt 
+suod cat >> /usr/local/bin/startcompiz
+sudo cat >> /usr/local/bin/startcompiz
+cat >> startcompiz
+chmod +x startcompiz 
+./startcompiz 
+guake
+sudo cp startcompiz /usr/local/bin
+exit
+sudo rm -r /var/tmp/kdecache-* 
+sudo rm -r /var/tmp/*
+sudo rm -r /var/tmp/
+dpkg -S /usr/share/icons/HighContrast/
+sudo apt-get purge gnome-accessibility-themes 
+sudo apt-get purge gnome-accessibility-themes
+dpkg -S /usr/share/icons/HighContrast/scalable/
+dpkg -S /usr/share/icons/HighContrast/
+sudo apt-get purge nuvola-icon-theme 
+mkdir source
+mkdir desk
+cd source/
+mkdir {1..10}
+ls
+cd ..
+cd desk/
+ln --help
+ln -s -r ../source/* 
+ls
+ln -s -r -t . ../source/*
+ls
+rm *
+ls
+ln -s  -t . ../source/*
+ls
+cd 1
+ls
+cd $icons_d
+ls
+ln -s /media/mine2/icons/* -t .
+sudo ln -s /media/mine2/icons/* -t .
+sudo cp -u -i -v /media/mine2/icons/hicolor/* hicolor/
+sudo cp -r -u -i -v /media/mine2/icons/hicolor/* hicolor/
+yakuake 
+backDebs.sh 
+apt-cache search guake
+apt-cache show guake
+ls
+gem list ruby
+sudo gem install Desktop/ruby-debian-0.3.8-orig.gem 
+git init
+gem unpack ruby-debian-0.3.8-orig.gem 
+gem gemspec ruby-debian-0.3.8-orig.gem --ruby > ruby-debian-0.3.8-orig/
+gem gemspec ruby-debian-0.3.8-orig.gem --ruby > ruby-debian-0.3.8-orig/ruby-debian.gemspec
+gem gemspec ruby-debian-0.3.8-orig.gem -ruby > ruby-debian-0.3.8-orig/ruby-debian.gemspec
+history | --ruby
+history | grep '--ruby'
+history | grep "--ruby"
+history | grep "ruby"
+gem spec ruby-debian-0.3.8-orig.gem > ruby-debian-0.3.8-orig/ruby-debian.gemspec 
+git commit -m 'initial'
+git add 
+git add .
+git commit -m 'initial'
+git status
+git add .
+git commit -m 'fixed'
+git diff
+git difftool 
+git log
+git diff cfb43b e4c82
+git diff cfb43b e4c82 > output-patch
+git status
+ls
+git apply ../output-patch
+mv ../output-patch .
+git apply output-patch
+mv output-patch ..
+ls
+git checkout cfb43
+git apply ../output-patch
+sudo patch /var/lib/gems/1.9.1/gems/ruby-debian-0.3.8/lib/debian.rb /media/windows+vids/dev_tools/ruby/ruby-debian.fix.patch 
+sed -n '130, 145' /var/lib/gems/1.9.1/gems/ruby-debian-0.3.8/lib/debian.rb
+sed -n '130,145p' /var/lib/gems/1.9.1/gems/ruby-debian-0.3.8/lib/debian.rb
+sed -n '130,155p' /var/lib/gems/1.9.1/gems/ruby-debian-0.3.8/lib/debian.rb
+sed -n '130, 155p' /var/lib/gems/1.9.1/gems/ruby-debian-0.3.8/lib/debian.rb
+sed -n '130, 155 p' /var/lib/gems/1.9.1/gems/ruby-debian-0.3.8/lib/debian.rb
+sed -n ' 130, 155 p' /var/lib/gems/1.9.1/gems/ruby-debian-0.3.8/lib/debian.rb
+.RubyMine70/config/rubystubs/ruby19/libarchive/0.1.2/
+find .RubyMine70/config/rubystubs/ruby19/ -iname '*.gem'
+rm .RubyMine70/config/rubystubs/ruby19/libarchive/0.1.2/ -r 
+rm .RubyMine70/config/rubystubs/ruby19/libarchive/
+gem list libal
+sudo gem install libarchive-ruby-swig
+apt-get install swig2.0
+sudo apt-get install swig2.0
+sudo gem install libarchive-ruby-swig
+backGems.sh 
+nano ~/bin/backGems.sh 
+backGems.sh 
+nano ~/bin/backGems.sh 
+cp /var/lib/gems/1.9.1/cache/libarchive-ruby-swig-0.6.3.gem $gems_d 
+nano ~/.bash_aliases 
+. ~/.bash_aliases 
+cp /var/lib/gems/1.9.1/cache/libarchive-ruby-swig-0.6.3.gem $gems_d 
+cp Programming/older-debs-cleaner/debs/34.deb ./RubymineProjects/libarchive_test/
+ls /linux/linux/repo/trusty/debs/
+pdftk --help
+ls
+cd Desktop/
+ls
+cd Desktop/
+pdftk A="Conn's Current Therapy 2015.pdf" cat A797-803 output output.pdf
+suod chmod -R -v 644 
+suod chmod -R . 644 
+suod chmod -R  644 ./*
+suod chmod -R -v 644 ./*
+cd /etc/apt/preferences.d/
+ls
+cd ..
+ls
+cd apt.conf.d/
+ls
+sudo chmod 644 99mySettings 
+apt-config 
+apt-config --help
+apt-config --shell
+apt-config --dump
+apt-config dump
+man apt-config | grep Apt::
+man apt-config | grep "Apt::"
+man apt-config | grep "Apt"
+man apt.config | grep "Apt"
+man apt.conf 
+man apt.conf | grep 'Apt'
+man apt.conf | grep 'Apt:'
+man apt.conf | grep 'Apt'
+man apt.conf | grep -i 'Apt'
+man apt.conf 
+man apt.conf | grep -i 'authentic'
+man apt.conf | grep -i 'Allow'
+ls
+cat 99mySettings 
+apt.conf
+man apt.conf
+cat /usr/share/doc/apt/examples/configure-index.gz
+gzip /usr/share/doc/apt/examples/configure-index.gz /home/learner/Desktop/
+gzip --help
+gzip -d /usr/share/doc/apt/examples/configure-index.gz /home/learner/Desktop/
+cd /usr/share/doc/apt/examples/configure-index.gz 
+cd /usr/share/doc/apt/examples/
+ls
+cat apt.conf 
+gzip --help
+cd
+gzip -d /usr/share/doc/apt/examples/configure-index.gz 
+cp /usr/share/doc/apt/examples/configure-index.gz 
+cp /usr/share/doc/apt/examples/configure-index.gz .
+ls
+gzip -d configure-index.gz 
+ls
+ls configure-index 
+cd -
+ls
+cd /etc/apt
+ls
+cd apt.conf.d/
+ls
+sudo nano 99mySettings 
+apt-cache dump
+apt-cache policy 
+apt-config dump
+sudo apt-get install 
+sudo apt-get install  mate-indicator-applet 
+apt-cache policy mate-indicator-applet 
+apt-cache policy indicator-applet-complete 
+dpkg -L indicator-applet-complete 
+sudo apt-get install --reinstall human-icon-theme
+sudo apt-get install --reinstall hicolor-icon-theme 
+sudo apt-get install --reinstall human-icon-theme
+apt-cache policy human-icon-theme 
+apt-cache policy 
+sudo apt-get install --reinstall human-icon-theme
+sudo apt-get install --reinstall humanity-icon-theme 
+sudo apt-get install --reinstall hicolor-icon-theme 
+apt-cache policy humanity-icon-theme 
+sudo apt-get install --reinstall humanity-icon-theme 
+mount casper/filesystem.squashfs ~/tmp
+suod mount casper/filesystem.squashfs ~/tmp
+mkdir ~/tmp
+suod mount casper/filesystem.squashfs ~/tmp
+cd ~/tmp
+cd
+dpkg-repack --root=~/tmp humanity-icon-theme
+sudo dpkg-repack --root=~/tmp humanity-icon-theme
+dpkg --get-selections | grep human
+sudo dpkg-repack --root=~/tmp humanity-icon-theme
+sudo dpkg-repack --root=/home/learner/tmp humanity-icon-theme
+sudo umount ~/tmp
+sudo umount /media/ubuntu-14.04-desktop-i386.iso 
+suod rmdir /media/ubuntu-14.04-desktop-i386.iso/
+exit
+sudo apt-get remove humanity-icon-theme 
+sudo apt-get --reinstall install  humanity-icon-theme 
+suod dpkg -i humanity-icon-theme_0.6.5_all.deb 
+find -type d
+sudo sH
+sudo -sH
+exit
+.config/
+cd .config/
+ls
+nano user-dirs.dirs 
+xdg-user-dirs-update 
+xdg-user-dirs-gtk-update 
+sudo apt-get --reinstall install delorean-dark-3.12 
+sudo apt-get --reinstall install dorian-theme
+sudo apt-get --reinstall install dorian-theme-3.12 
+gsettings set org.mate.applications-browser 
+gsettings get org.mate.applications-browser 
+gsettings get org.mate.
+gsettings get org.mate.applications-browser exec
+gsettings get org.mate.session.required-components 
+gsettings get org.mate.session.required-components filemanager
+gsettings get org.mate.session.required-components panel
+gsettings get org.mate.session.required-components windowmanager
+gsettings set org.mate.session.required-components windowmanager 'startcompiz'
+exit
+startcompiz
+xdg-mime --help
+xdg-mime default caja.desktop inodes/directory
+xdg-mime query nautilus.desktop
+xdg-mime query filetype nautilus.desktop
+xdg-mime query query 
+xdg-mime query 
+xdg-mime query filetype
+xdg-mime query filetype nautilus.desktop
+xdg-mime --help
+xdg-mime query default nautilus.desktop
+xdg-mime query default inodes/directory
+xdg-mime query default inode/directory
+xdg-mime default caja.desktop inode/directory
+xdg-mime default caja.desktop inodes/directory
+remove_empty_folders 
+cd Programming/older-debs-cleaner/
+ls
+ruby libarchive-ruby-tester.rb 
+ruby libarchiveswig-tester.rb.rb 
+ruby libarchiveswig-tester.rb
+ruby libarchive-ruby-tester.rb
+cd Desktop/
+mkdir dd
+gvfs-trash dd
+gvfs-monitor-dir ~/Programming/older-debs-cleaner/
+gem list libarch
+suod gem install libarchive
+backGems.sh 
+suod gem uninstall libarchive
+suod gem install --local /media/windows+vids/dev_tools/ruby-gems-repo/gems//libarchive-0.1.2.gem 
+cd Downloads/FinchVPN_config_anwarshah_21-01-2015_ubuntu/
+cat finchvpn-tls-key.key 
+cat >> password
+mate-network-admin 
+cd Downloads/
+ls
+cd FinchVPN_config_anwarshah_21-01-2015_ubuntu/
+ls
+suod openvpn FinchVPN_FREE_02_France_udp_53_ubuntu.ovpn 
+openvpn --help
+openvpn --config-file FinchVPN_FREE_02_France_udp_53_ubuntu.ovpn 
+openvpn --help | head
+openvpn --config  FinchVPN_FREE_02_France_udp_53_ubuntu.ovpn 
+sudo openvpn --config  FinchVPN_FREE_02_France_udp_53_ubuntu.ovpn 
+cd /usr/share/applications
+ls
+cat mate-network.desktop 
+cat mate-network-properties.desktop 
+mate-network-properties 
+sudo apt-get install indicator-application-gtk2 
+sudo apt-get install indicator-sound-gtk2 
+sudo apt-get install indicator-messages-gtk2 indicator-applet-complete 
+cat Downloads/FinchVPN_config_anwarshah_21-01-2015_ubuntu/password 
+cd Downloads/FinchVPN_config_anwarshah_21-01-2015_ubuntu/
+suod openvpn --config FinchVPN_FREE_02_France_udp_53_ubuntu.ovpn 
+sudo openvpn --config FinchVPN_FREE_02_France_udp_53_ubuntu.ovpn 
+rake build
+suod apt-get install ubuntu-mate-core ubuntu-mate-desktop
+apt-cache policy ubuntu-mate-core
+sudo apt-get add-apt-repository ppa:ubuntu-mate-dev/trusty-mate
+sudo apt-get apt--add-repository ppa:ubuntu-mate-dev/trusty-mate
+sudo  apt--add-repository ppa:ubuntu-mate-dev/trusty-mate
+sudo  apt-add-repository ppa:ubuntu-mate-dev/trusty-mate
+sudo  apt-add-repository ppa:ubuntu-mate-dev/ppa
+sudo apt-add-repository ppa:ubuntu-mate-dev/trusty-mate
+sudo apt-get install --no-install-recommends ubuntu-mate-core ubuntu-mate-desktop
+sudo apt-get install --no-install-recommends ubuntu-mate-core 
+sudo apt-get install mate-control-center-common mate-desktop-environment-core
+apt-cache policy mate-desktop-environment-core 
+apt-cache policy 
+cd /linux/linux/repo/trusty_new/
+ls
+move_to_lettered_folder.rb 
+genPackages.sh 
+genRelease.sh 
+cat Release
+apt-cache policy 
+sudo apt-get update
+apt-cache policy 
+apt-cache policy mate-desktop-environment-core -t ubuntu-local
+apt-get mate-desktop-environment-core -t ubuntu-local
+apt-get install mate-desktop-environment-core -t ubuntu-local
+sudo apt-get install mate-desktop-environment-core -t ubuntu-local
+apt-get install mate-desktop-environment-core -t ubuntu-local
+sudo apt-get install mate-desktop-environment-core -t ubuntu-local
+sudo apt-get install mate-desktop-environment-core
+exit
+argyl
+argyll
+apt-cache show argyll
+cd Programming/older-debs-cleaner/
+multi_version_remover.rb 
+cd /linux/linux/repo//trusty
+multi_version_remover.rb 
+ls
+ls to_delete/
+ls
+cd to_delete/
+ls
+gvfs-trash cinnamon-common_1.8.8-0ubuntu1~raring1_all.deb cinnamon_2.2.13_i386.deb 
+ls
+cd /etc/xdg/autostart/
+ls
+cat nm-applet.desktop 
+nm-applet 
+cat indicator-sound.desktop w
+/usr/lib/i386-linux-gnu/indicator-sound/indicator-sound-service
+ls
+cd Programming/older-debs-cleaner/
+multi_version_remover.rb 
+sudo apt-get remove gnome-session-flashback 
+sudo apt-get remove openbox 
+sudo apt-get autoremove
+sudo apt-get install phonon
+sudo apt-get install phonon-backend-gstreamer1.0
+sudo apt-get install phonon4qt5
+sudo apt-cache show phonon4qt5
+sudo nethogs usb0
+lnusertemp
+ls /var/kxstudio/debian-repos-copied2-trusty 
+ls /.kde
+ls /
+ls -a /
+exit
+rm Link\ to\ computer_science
+ln -s /media/books+mobile/Books/computer_science/
+sudo apt-get --reinstall install elementary-icon-theme 
+sudo rm /usr/share/icons/elementary/.icon-theme.cache 
+gtk-update-icon-cache-3.0 /usr/share/icons/elementary/
+sudo gtk-update-icon-cache-3.0 /usr/share/icons/elementary/
+sudo gtk-update-icon-cache /usr/share/icons/elementary/
+sudo rm /usr/share/icons/elementary/.icon-theme.cache 
+sudo gtk-update-icon-cache /usr/share/icons/elementary/
+cd shortcuts/computer_science
+cd Simulation/
+ls
+okular Discrete\ Event\ System\ Simulation\ by\ Banks.pdf 
+sudo mkdir /var/tmp
+okular Discrete\ Event\ System\ Simulation\ by\ Banks.pdf 
+sudo cp -r -v /media/mine2/icons/oxygen/ /urs/share/icons/ 
+sudo cp -r -v /media/mine2/icons/oxygen/ /usr/share/icons/ 
+sudo cp -r -v /media/mine2/icons/oxygen/ /usr/share/icons/
+sudo cp -u -r -v /media/mine2/icons/oxygen/ /usr/share/icons/
+sudo cp -u -r -v /media/mine2/icons/oxygen/ /usr/share/icons/oxygen/
+cd /usr/share/icons/oxygen/oxygen/
+ls
+sudo cp */* .. -v
+sudo cp -r */* .. -v
+ls
+sudo mv -r */* .. -v
+sudo rm -r .
+cd ..
+sudo rm -r oxygen/
+exit
+sudo chmod -R g+rx . -v
+sudo chmod -R o+rx . 
+sudo gtk-update-icon-cache /usr/share/icons/elementary/
+sudo rm /usr/share/icons/elementary/.icon-theme.cache 
+sudo gtk-update-icon-cache /usr/share/icons/elementary/
+sudo rm /usr/share/icons/elementary/.icon-theme.cache 
+sudo gtk-update-icon-cache-3.0 /usr/share/icons/elementary/
+stat lubuntu/
+stat lubuntu
+sudo chmod 755 lubuntu/
+sudo gtk-update-icon-cache-3.0 /usr/share/icons/elementary/
+sudo gtk-update-icon-cache-3.0 lubuntu/icon-theme.cache 
+sudo gtk-update-icon-cache-3.0 lubuntu/index.theme 
+sudo gtk-update-icon-cache-3.0 Lubuntu-dark-panel/
+sudo gtk-update-icon-cache-3.0 oxygen/
+sudo gtk-update-icon-cache-3.0 elementary
+sudo gtk-update-icon-cache-3.0 elementary/
+rm elementary/.icon-theme.cache 
+sudo rm elementary/.icon-theme.cache 
+sudo gtk-update-icon-cache-3.0 elementary/
+sudo rm elementary/.icon-theme.cache 
+sudo gtk-update-icon-cache-3.0 elementary/
+sudo rm elementary/.icon-theme.cache 
+sudo apt-get --reinstall install kdebase-workspace kdebase-runtime
+sudo apt-get --reinstall install okular
+which klauncher
+dpkg -S klauncher
+sudo apt-get --reinstall install kdelibs5-plugins 
+kill -9 -1
+$XDG_SESSION_PATH 
+cat $XDG_SESSION_PATH 
+echo $UPSTART_SESSION 
+echo $XDG_CURRENT_DESKTOP 
+kdeinit4 if $XDG_CURRENT_DESKTOP == 'KDE'
+kdeinit4
+echo $DESKTOP_SESSION 
+sudo mv /usr/local/bin/startcompiz ~
+sudo chmod +x startcompiz 
+./startcompiz 
+sudo mv startcompiz /usr/local/bin/ 
+exit
+kdeinit4_shutdown 
+kill -9 -1
+startcompiz 
+gnome-session-properties 
+kill -9 -1
+kdeinit4_shutdown 
+sudo nethogs usb0
+sudo apt-get install mate-bluetooth
+apt-cache show mate-bluetooh
+apt-cache show mate-bluetooth
+apt-cache provides mate-bluetooth
+apt-cache policy mate-bluetooth
+apt-cache showpkg 
+apt-cache pkgnames 
+apt-cache pkgnames | grep 'mate'
+apt-cache pkgnames | grep 'mate&bluetooth'
+apt-cache pkgnames | grep 'mate&indi'
+apt-cache pkgnames | grep 'mate'
+sudo apt-get install ubuntu-mate-default-settings 
+sudo apt-get install ubuntu-mate-core
+sudo apt-get install --no-install-recommends ubuntu-mate-core
+sudo apt-get install --no-install-recommends ubuntu-mate-core -t trusty
+sudo apt-get install --no-install-recommends ubuntu-mate-core -t ubuntu-local
+sudo apt-get install --no-install-recommends ubuntu-mate-core 
+sudo apt-get install --no-install-recommends mate-desktop-environment-core
+sudo apt-get install --no-install-recommends mate-backgrounds 
+sudo apt-get install --no-install-recommends mate-backgrounds -t ubuntu-local
+apt-cache policy mate-backgrounds 
+sudo apt-get install --no-install-recommends mate-desktop-environment-core
+sudo apt-get install --no-install-recommends mate-desktop-environment-core mate-backgrounds-
+apt-cache show mate-backgrounds 
+cd $debs_d
+ls
+find -iname '*mate-background*'
+find -iname '*mate-wal*'
+find -iname '*mate-back*'
+find -iname '*mate*'
+ls
+cd ..
+ls
+ls repo/
+sudo apt-get install --no-install-recommends mate-desktop-environment-core mate-backgrounds-
+apt-cache show mate-backgrounds 
+dpkg --build mint-background
+ls
+cd
+dpkg --build mint-background
+sudo apt-get -f install 
+sudo dpkg -i --force-overwrite /var/cache/apt/archives/mate-control-center-common_1.8.3+dfsg1-2~trusty1_all.deb 
+backDebs.sh 
+adb pull /sdcard/Download/Kurose.doc .
+adb push Kurose.pdf /sdcard/Download
+adb push Distance_vector_routing_algorithm.pdf /sdcard1/Books/
+adb push "link-state-routing algorithm-UCSDCSE.pdf" /sdcard1/Books
+history | grep 'lts'
+cd bin
+cp .history .
+cp ~.history .
+cp ~/.history .
+cp ~/.bash_history .
+mv .bash_history history
+cat history | wc -l
+sed --help
+info sed
+sed '0//'
+sed '0///'
+sed '0,///'
+sed '0,//'
+sed p '0,//'
+sed 's/0,//'
+sed 'p/0,//'
+sed '/0,//p'
+sed '0,//p'
+sed 's/0,//'
+sed 's/0,//' history
+sed 's/0,//' ./history
+sed 's/0,+40//' history
+ls
+cd bin
+sed 's/0,+40//' history
+sed '/0,+40//' history
+sed 's/0,+40//' history
+sed 's/0,+4//' history
+sed 's/0,+4//' history | wc -l
+sed 's/0,//' history | wc -l
+sed 's/0,//' history 
+sed 's/0,what//' history 
+sed 's/0,h//' history 
+sed 's/h//' history 
+sed 10q history 
+sed 1q history 
+sed 1000q history 
+sed 1000q/d history 
+sed '1000q/d' history 
+sed '1000d' history 
+history | wc -l
+sed '1000d' history 
+sed '1000d' history | wc -l
+sed '1~`0d' history | wc -l
+sed '1~10d' history | wc -l
+sed '1~10' history | wc -l
+sed '1,10' history | wc -l
+sed '1,10q' history | wc -l
+sed '1,10p' history | wc -l
+sed '1,10q' history | wc -l
+sed '1,10d' history | wc -l
+sed '2999,10d' history | wc -l
+sed '2999,' history | wc -l
+sed '2999,+a' history | wc -l
+sed '2999,+N' history | wc -l
+sed '2999,+3' history | wc -l
+sed '1,+3' history | wc -l
+sed '1,+3/q' history | wc -l
+sed '1,+3q' history | wc -l
+sed '1,+3p' history | wc -l
+sed '1,+3p' history 
+sed '1,+3p' history | wc -l
+sed '^1,+3p' history | wc -l
+sed '1,+3p' history | wc -l
+sed '1,+3p/.*/' history | wc -l
+sed '1,+3p/.*/p' history | wc -l
+sed '1,+3p/.\*/p' history | wc -l
+sed '1,+3p/\.\*/p' history | wc -l
+sed '1,+3p' history | wc -l
+sed '1,+3/.*/p' history | wc -l
+sed '1,+3/.\*/p' history | wc -l
+sed '1,+3/.\*p' history | wc -l
+sed '1,+3/p' history | wc -l
+sed '1,+3p' history | wc -l
+sed -s '1,+3p' history | wc -l
+sed -s '1,+3p' history 
+sed -s '1p' history 
+sed -n 1 '1p' history 
+sed -l 1 '1p' history 
+sed -l 1 '1p' history | wc
+sed -l 1 '0,/ruby/' history | wc
+sed -l 1 '0,/ruby/p' history | wc
+sed '0,1/ruby/p' history | wc
+sed '1,1/ruby/p' history | wc
+sed '1,2/ruby/p' history | wc
+sed '0,2/ruby/p' history | wc
+sed '0,+2/ruby/p' history | wc
+sed '0,/ruby/p' history | wc
+sed '0,+1/ruby/p' history | wc
+sed '0,3/ruby/p' history | wc
+sed '0,+3/ruby/p' history | wc
+sed '0,~+3/ruby/p' history | wc
+sed '0,/ruby/p' history | wc
+sed '0,+1/ruby/p' history | wc
+sed '0,+1/p' history | wc
+sed '0,+3/p' history | wc
+sed '0,+N/p' history | wc
+sed '0,+N' history | wc
+sed '0,+3' history | wc
+sed '0,' history | wc
+sed '0' history | wc
+sed 's/0,10/p' history | wc
+sed '0,10/p' history | wc
+sed --help
+sudo ln
+sudo apt-get install ubuntu-mate-lightdm-theme 
+sudo apt-get install ubuntu-mate-desktop 
+sudo apt-get install mate-indicator-applet
+sudo apt-get install caja-gksu compiz-mate
+sudo apt-get install compiz-mate
+sudo apt-get install caja-gksu compiz-mate
+cat /etc/X11/Xsession.d/65compiz_profile-on-session
+sudo mv /usr/local/bin/startcompiz ~/bin/ -v
+exit
+sudo mount /dev/sr0 /mnt
+ls /mnt
+ls /mnt/ata-HL-DT-ST_DVDRAM_GSA-T20N
+sudo mount /dev/sr0 /mnt
+cd Programming/
+gcc add_even.c 
+ls
+sudo apt-get install ubuntu-mate-desktop 
+sudo apt-get install gir1.2-mate-panel mate-appletsmate-notification-daemon
+sudo apt-get install gir1.2-mate-panel mate-applets mate-notification-daemon
+cd Programming/
+ls
+gcc add_even.c 
+./a.out 
+gcc add_even.c 
+./a.out 
+gcc add_even.c 
+./a.out 
+gcc add_even.c 
+./a.out 
+gcc add_even.c 
+./a.out 
+gcc add_even.c 
+./a.out 
+sudo apt-get install ubuntu-mate-desktop 
+sudo apt-get install mate-menu mate-power-manager mate-sensors-applet mate-tweak mate-utils
+update-repo ubuntu-mate-dev-trusty-mate-trusty.list 
+sudo apt-get install mate-menu mate-power-manager mate-sensors-applet mate-tweak mate-utils
+udisks
+mate-tweak 
+cd Programming/
+gcc add_even.c 
+backDebs.sh 
+sudo apt-get install ubuntu-mate-desktop 
+sudo apt-get install 
+sudo apt-get install ubuntu-mate-desktop 
+sudo apt-get install atril
+sudo apt-get install xzoom 
+xzoom 
+sudo apt-get install xbrlapi 
+xbrlapi 
+xbrlapi --help
+adb devices
+adb shell
+adb pull /sdcar/Qiezi/files/The+Talent\+Code.pdf 
+adb pull /sdcar/QieZi/files/The+Talent\+Code.pdf 
+adb pull /sdcard/QieZi/files/The+Talent\+Code.pdf 
+pwd
+sudo mount /dev/sr0 /mnt
+sudo mount -t iso9660 /dev/sr0 /mnt
+sudo apt-get install ubuntu-mate-desktop
+sudo apt-get install blueman
+sudo apt-get install ubuntu-mate-desktop
+sudo apt-get install atril
+sudo mount /dev/sr0 /mnt
+cd Programming/
+gcc add_even.c 
+./a.out 
+gcc add_even.c 
+./a.out 
+gcc add_even.c 
+./a.out 
+gcc add_even.c 
+./a.out 
+gcc add_even.c 
+./a.out 
+gcc add_even.c 
+./a.out 
+sudo mount /dev/sr0 /mnt
+ls /mnt
+ls /mnt/ata-HL-DT-ST_DVDRAM_GSA-T20N_M2L87NG3612/
+mkdir ~/tmp
+sudo mount /dev/sr0 ~/tmp
+octave
+sudo apt-get install octave
+sudo apt-get install octave -t ubuntu-local
+sudo apt-get install google-drive-ocamlfuse 
+google-drive-ocamlfuse 
+google-drive-ocamlfuse --help
+mkdir drive
+man google-drive-ocamlfuse 
+google-drive-ocamlfuse 'GoogleDrive' ~/drive/
+ls ~/drive
+man google-drive-ocamlfuse 
+fc-match 'Mukti Narrow'
+fc-list 'Mukti Narrow'
+sudo rm /usr/share/fonts/truetype/ttf-indic-fonts-core/MuktiNarrowBold.ttf
+sudo rm /usr/share/fonts/truetype/ttf-indic-fonts-core/MuktiNarrow.ttf 
+sudo fc-cache -f 
+sudo umount ~/drive/
+octave --help
+octave
+apt-cache rdepends octave
+sudo apt-get install qtoctave
+sudo apt-get install qtoctave -t ubuntu-local
+killall docky
+7z --help
+man 7za
+man 7zr
+xprop 
+killall gnome-split
+cat /usr/share/applications/gnome-split.desktop
+cat /usr/bin/gnome-split
+killall /usr/bin/gnome-split
+gnome-split
+ps -e | grep gnome
+xkill
+man -k '001'
+man -k 'split'
+man split
+man -k 'join'
+7zp
+7z
+killall java
+man gnome-split
+man -k 'Xtrem-split'
+apt-get show xtream-split
+apt-cache show xtream-split
+apt-cache search 'xtream-splti'
+apt-cache search 'xtream-split'
+apt-cache search 'split'
+apt-cache search 'split' | grep xtream
+md5sum RubyMine-7.1.2.tar.gz 
+sha256sum RubyMine-7.1.2.tar.gz
+cd /usr/share/applications
+cat jetbrains-rubymine.desktop 
+sudo nano jetbrains-rubymine.desktop 
+ls /media/mine2/RubyMine-7.1.2/bin/RMlogo.svg 
+cd .RubyMine70/
+ls
+du -h .
+cd ..
+rm -r .RubyMine70/
+ln -s /media/books+mobile/Books/
+exit
+gcc even_odd.c 
+./a.out 
+gcc even_odd.c 
+./a.out 
+touch 'even_odd.txt'
+nano even_odd.txt 
+./a.out 
+nano even_odd.txt 
+gcc even_odd.c 
+./a.out 
+./even_odd 
+cd $apt_d
+ls /media/books+mobile/APK/
+nano ~/.profile
+. ~/.profile
+cd $apk_d
+find -iname 'todo'
+find -iname '*todo*'
+adb install \$apk_d/t/Todoist\ 6.1.1.apk 
+cd $apk_d
+adb install t/Todoist\ 6.1.1.apk 
+adb install "t/Todoist 6.1.1.apk" 
+pm
+adb push "t/Todoist 6.1.1.apk" /sdcard/
+adb pull /sdcard/download/bmsft-code.zip .
+ls
+unzip bmsft-code.zip 
+ls
+irb
+remove_empty_folders 
+find -iname '*bmsft*'
+cd shortcuts/Books
+ls
+find -iname '*bmsft*'
+find -iname '*code*'
+cd
+find -iname '*code*'
+find -iname '*scripting*'
+find -iname '*book*'
+irb
+cd code
+ls
+cd inventory/
+l
+ruby inventory.rb 
+ruby inventory.rb > new-inventory.txt
+cat new-inventory.txt 
+irb
+irb.puts "kdsf"
+ruby irb.puts "kdsf"
+cd code/inventory/
+subl differences.rb
+ls
+ln -s /media/books+mobile/Books/ruby/Pragmatic_Build_Awesome_Command_Line_Applications_in_Ruby_2012.pdf 
+ls
+xdg-open Pragmatic_Build_Awesome_Command_Line_Applications_in_Ruby_2012.pdf 
+ln -s shortcuts/Books/ruby/Pragmatic_Bookshelf_Everyday_Scripting_With_Ruby_Jan_2007_Ebook_Bbl.pdf 
+ls
+xdg-open Pragmatic_Bookshelf_Everyday_Scripting_With_Ruby_Jan_2007_Ebook_Bbl.pdf 
+xdg-open Pragmatic_Bookshelf_Everyday_Scripting_With_Ruby_Jan_2007_Ebook_Bbl.pdf &
+irb
+ri Array.sort
+cd rubydoc/
+ls
+rake build
+cat Rakefile 
+nano Rakefile 
+s
+ls
+ls sources/
+rm -r sources/
+ls
+ls docs/
+rm -r docs/
+ls
+ruby --version
+rake build
+gem list
+cd code
+cd
+cd code/inventory/
+ruby differences.rb 
+irb
+cd code/
+cd inventory/
+ruby differences.rb 
+cat old-inventory.txt 
+cat old-inventory.txt new-inventory.txt 
+ruby differences.rb 
+cat old-inventory.txt 
+ruby differences.rb 
+cat old-inventory.txt 
+cat new-inventory.txt 
+ruby differences.rb 
+gsettings set org.mate.Marco.general theme 'Radiance'
+gsettings set org.gnome.desktop.wm.preferences theme 'Radiance'
+gsettings get org.mate.interface gtk-theme
+gsettings set org.gnome.desktop.wm.preferences theme 'MBuntu-Y-For-Mint'
+ruby differences.rb 
+ruby differences.rb old-inventory.txt new-inventory.txt 
+ruby differences.rb 
+irb
+irb 'sjdklf'
+irb
+pry
+nano ~/.bash_aliases 
+. ~/.bash_aliases 
+irb
+fdupes 
+fdupes .
+cd ..
+ls
+fdupes .
+fdupes ./
+fdupes --help
+fdupes -r .
+fdupes -n -A -S ./
+fdupes -n -A -S -r ./
+cd bangla/
+ls
+fdupes -n -A -S -r ./
+cd ..
+fdupes -n -A -S -r ./programming_misc/
+fdupes --help
+duplicity --help
+man -k 'duplicate'
+man -k 'dupe'
+find -iname *.apk
+find Android/ -iname '*.apk'
+find Android/ -iname '*.apk' -exec mv {} -t App_Manager/ \;
+find Android/ -iname '*.apk'
+find  -iname '*.apk'
+startcompiz
+irb
+`irb`
+ls
+cd inventory/
+ls
+ruby differences.rb 
+ruby differences.rb old-inventory.txt new-inventory.txt 
+irb
+ruby differences.rb old-inventory.txt new-inventory.txt 
+irb
+sudo apt-get install ubuntu-mate-desktop
+sudo apt-get install ubuntu-mate-desktop --no-install-recommends
+mkdir mate-icon-theme-faenza
+touch mate-icon-theme-faenza/DEBIAN/control
+mkdir mate-icon-theme-faenza/DEBIAN
+touch 
+touch mate-icon-theme-faenza/DEBIAN/control
+subl mate-icon-theme-faenza/DEBIAN/control
+apt-cache show mate-icon-theme
+apt-cache show mate-icon-theme-faenza 
+dpkg --build mate-icon-theme-faenza/
+ls
+dpkg-name mate-icon-theme-faenza.deb 
+suod dpkg -i mate-icon-theme-faenza-provider_1.8.0+dfsg1-1~trusty1_all.deb 
+sudo apt-get install ubuntu-mate-desktop
+sudo apt-get install libreoffice-style-human
+sudo apt-get install engrampa
+sudo apt-get install engrampa -t ubuntu-local
+sudo apt-get install ubuntu-mate-desktop
+alias irb
+alias --helppp
+alias -p 
+alert "how?"
+alias irb="irb"
+irb
+sudo apt-get install fluidsynth
+sudo apt-get install fluidsynth --no-install-recommends
+sudo apt-get install vlc-plugin-fluidsynth --no-install-recommends
+cd inventory/
+irb
+ruby differences.rb old-inventory.txt new-inventory.txt 
+irb
+ruby differences.rb old-inventory.txt new-inventory.txt 
+mkdir ~/tmp/iso
+mount ubuntu-14.04-desktop-i386.iso ~/tmp/iso
+sudo mount ubuntu-14.04-desktop-i386.iso ~/tmp/iso
+mkdir /tmp/isosys
+sudo mount ~/tmp/iso/casper/filesystem.squashfs /tmp/isosys/
+cd
+sudo dpkg-repack --root=/tmp/isosys gnome-icon-theme
+sudo dpkg -i gnome-icon-theme_3.10.0-0ubuntu2_all.deb 
+sudo apt-get --reinstall install humanity-icon-theme 
+aptik --help
+sudo aptik --help
+sudo aptik --list-default
+sudo aptik --list-default > default-pkgs
+gedit default-pkgs 
+sudo apt-get --reinstall install hicolor-icon-theme 
+sudo apt-get --reinstall install gnome-icon-theme
+sudo apt-get --reinstall install gnome-icon-theme -t ubuntu-local
+sudo apt-get --reinstall install gnome-icon-theme -t ubuntu-local -V
+suod umount /tmp/isosys 
+sudo umount tmp/iso /
+update-icon-caches /usr/share/icons/gnome
+sudo update-icon-caches /usr/share/icons/gnome
+dpkg -L radiance-mate-icon-theme
+dpkg -L mate-icon-theme
+dpkg -L mate-icon-theme | grep radiance
+ln -s /linux/linux/repo/
+exit
+irb
+nano .bash_aliases 
+. .bash_aliases 
+irb
+bash
+irb
+ri Time.strftime
+. .rvm/scripts/rvm
+ruby --verison
+ruby --version
+rvm use 2.2.0
+rvm default 2.2.0
+ls
+ri Time.strftime
+irb
+x3m www.google.com
+w3m www.google.com
+find -type d -d 1
+find -type d -d -L 1
+find -type d -d -1level
+find -type d  -1level
+find . -type d  -1level 
+find . -type d  
+find --help
+find . -type d  -depth 1
+find ./ -type d  -depth 1
+find  -type d  -depth 1 ./
+find -depth 1 -type d  ./
+find -depth 1 -type d  
+find . -depth 1 -type d  
+find -depth 1 -type d  .
+find -depth 1 -type d  ./
+ls
+ls --hep
+ls --help
+ls -d
+ls --help
+ls -g
+ls -G
+ls -g
+dir
+dir --help
+find
+find --help
+find -depth 1 . -type d
+find -depth 
+find -depth 1
+find -depth1
+find -depth 
+find --help
+find -maxdepth 1 
+find -maxdepth 1 -type d
+find --help
+find -maxdepth 1 -type d -noleaf
+find -maxdepth 1  -noleaf -type d
+find   -noleaf -type d
+find -maxdepth 1  -noleaf -type d
+find -maxdepth 1   -type d
+find --help
+find -maxdepth 1   -type d -prune
+find -maxdepth 1   -type d -prune '.'
+find -maxdepth 1   -type d -prune '.*'
+find -maxdepth 1   -type d -prune .*
+find -maxdepth 1   -type d -prune -iname [a-z]*
+find -maxdepth 1   -type d -prune -iname '[a-z]*'
+find -maxdepth 1   -type d -iname '[a-z]*'
+find -maxdepth 1   -type d -iname '[a-z]*' | cut -d './' 
+find -maxdepth 1   -type d -iname '[a-z]*' | cut -d './' -f 1
+find -maxdepth 1   -type d -iname '[a-z]*' | cut -d '/' -f 1
+find -maxdepth 1   -type d -iname '[a-z]*' | cut -d '/' -f 2
+lsblk
+lsusb
+adb devices
+adb kill-server
+adb devices
+sudo adb devices
+adb devices
+adb kill-server
+adb devices
+find -maxdepth 1   -type d -iname '[a-z]*' | cut -d '/' -f 2
+gedit .hidden 
+mv ruby-filemagic-0.6.3.gem $gems_d -v -i
+md5sum /media/windows+vids/dev_tools/ruby-gems-repo/gems/ruby-filemagic-0.6.3.gem
+md5sum ruby-filemagic-0.6.3.gem 
+rm ruby-filemagic-0.6.3.gem 
+fdupes .
+xdg-mime default nautilus.desktop inodes/directory
+caja -q
+find -maxdepth 3 -iname '*~'
+find -maxdepth 3 -iname '*~' -exec rm -v {} \;
+cd Desktop/
+find -maxdepth 1   -type d -iname '[a-z]*' | cut -d '/' -f 2
+nano ~/.bash_aliases 
+. ~/.bash_aliases 
+exit
+find -maxdepth 1   -type d -iname '[a-z]*' | cut -d '/' -f 2
+find -maxdepth 1   -type d -iname '[a-z]*' | cut -d '/' -f 2 >> .hidden 
+find Desktop -maxdepth 1  -type d -iname '[a-z]*' | cut -d '/' -f 2 
+find Programming/ -maxdepth 1  -type d -iname '[a-z]*' | cut -d '/' -f 2 
+find Programming/ -maxdepth 1  -type d -iname '[a-z]*' 
+ls
+cd Programming/
+ls
+find Programming/ -maxdepth 1  -type d -iname '[a-z]*' | cut -d '/' -f 2 
+find -maxdepth 1  -type d -iname '[a-z]*' | cut -d '/' -f 2 
+find -maxdepth 1   -type d -iname '[a-z]*' | cut -d '/' -f 2 >> .hidden 
+rm .hidden 
+find -maxdepth 1   -type d -iname '[a-z]*' | cut -d '/' -f 2 >> .hidden 
+nano .hidden 
+apt-cache search 'zoom'
+xgraph
+sudo apt-get install xgraph
+xgraph
+xgraph -h
+(1806043/1024)
+(1806043 / 1024 )
+1806043 / 1024 
+`1806043 / 1024`
+eval(1806043 / 1024)
+help
+((1806043 / 1024))
+echo ((1806043 / 1024))
+echo (( 1806043 / 1024 ))
+echo $(( 1806043 / 1024 ))
+echo $((1806043 / 1024))
+find -iname '*speech*'
+cd ../mine
+find -iname '*speech*'
+cd ../mine2
+find -iname '*speech*'
+cd ../windows+vids/
+find -iname '*speech*'
+ls
+apt-cache show compiz
+apt-cache show policy
+apt-cache policy compiz
+apt-cache policy compiz-plugins
+apt-cache policy compiz-plugins-extra 
+sudo apt-get install compiz-plugins-extra 
+sudo apt-get install compiz-plugins
+sudo apt-get install compiz-plugins-main
+sudo apt-get install compiz-plugins-default 
+sudo apt-get install compiz
+xdg-mime default nautilus.desktop inodes/directory
+xdg-mime default nautilus.desktop inode/directory
+ls
+xdg-mime default nautilus.desktop inode/directory
+xdg-mime default nautilus.desktop inode/directory -v
+xdg-mime default nautilus.desktop inode/directory --verbose
+xdg-mime default nautilus.desktop inode/directory 
+xdg-mime --help
+xdg-mime query inode/directory
+xdg-mime query inode/directory default
+xdg-mime query  default 
+xdg-mime query  default inode/directory
+xdg-mime query  default inodes/directory
+xdg-mime query  default caja.desktop
+xdg-mime query  default inodes/directory
+xdg-mime query  default *
+xdg-mime --help
+xdg-mime query  default inodes/desktop
+xdg-mime query  default inodes/folder
+xdg-mime query  default inode/
+xdg-mime query  default inode/*
+xdg-mime query  default inode/desktop
+xdg-mime query  default inode/directory
+xdg-mime query  default inodes/directory
+xdg-mime query uninstall inode/directory
+stat Faba
+find -type d 
+find -type d -exec chmod 755 {} \;
+sudo find -type d -exec chmod 755 {} \;
+stat Faba
+stat Faba/index.theme 
+sudo find -type f -exec chmod 644 {} \;
+cd
+find -iname '*.deb' -type f
+rm ./code/inventory/mate-icon-theme-faenza-provider_1.8.0+dfsg1-1~trusty1_all.deb
+man fstab
+man fstab | grep bind
+man fstab | grep -C 5 bind 
+man mount | grep -C 5 bind
+sudo gedit /etc/fstab
+sudo umount /linux
+if $DESKTOP_SESSION = 'mate' do; clipit; end; end; 
+if [ $DESKTOP_SESSION == 'mate' ]; then do
+if [ $DESKTOP_SESSION == 'mate' ]; then clipit; end; done
+help
+if [ $DESKTOP_SESSION == 'mate' ]; then clipit; end; end; 
+if [ $DESKTOP_SESSION == 'mate' ]; then clipit
+cat /etc/X11/Xsession.d/99mate-environment 
+if [ $DESKTOP_SESSION = 'mate' ]; t
+if [ $DESKTOP_SESSION = 'mate' ];  then clipit; fi
+$DESKTOP_SESSION 
+if [ $DESKTOP_SESSION = 'ubuntu' ];  then clipit; fi
+nano ~/.config/autostart/clipit.desktop 
+mount /linux
+sudo mount /linux
+sudo mount /media/linux+custom/
+if [ $DESKTOP_SESSION = 'mate' ];  then clipit; fi
+echo "if [ $DESKTOP_SESSION = 'mate' ];  then clipit; fi" > ~/bin/startclipit_mate
+cat ~/bin/startclipit_mate 
+chmod +x bin/startclipit_mate 
+startclipit_mate 
+sudo apt-get reinstall unity-icon-theme
+sudo apt-get --reinstall unity-icon-theme
+sudo apt-get --reinstall install unity-icon-theme
+cat /usr/share/applications/guake.desktop 
+xdg-mime default caja.desktop inode/directory
+irb
+sudo nano /etc/fstab
+sudo umount /linux
+sudo mount /media/linux+custom/
+sudo umount /media/linux+custom/
+sudo mount /media/linux+custom/
+cd /
+l
+sudo rm linux/
+sudo rmdir linux/
+sudo ln -s /media/linux+custom/ linux
+ls
+cd linux
+ls
+sudo update-alternatives --config lightdm-greeter 
+sudo update-alternatives --config lightdm-gtk-greeter-config-derivative 
+sudo service lightdm restart
+sudo nethogs wlan0
+find -type d 
+rename 'y/A-Z/a-z' Al_Quran/
+rename 'y/A-Z/a-z/' Al_Quran/
+find -type d 
+find -type d -exec rename 'y/A-Z/a-z/' {} \;
+find -type d -exec rename 'y/A-Z/a-z/' '{}' \;
+xdg-mime 
+xdg-mime default nautilus.desktop inode/directory
+exit
+cd /linux/linux/
+ls
+cd 3rd\ party\ debs/
+ls
+sudo dpkg -i dupeguru-se_3.9.1~trusty_all.deb 
+sudo apt-get install python3-pyqt5
+n
+sudo apt-get install python3-pyqt5
+sudo aptitude install python3-pyqt5
+dupeguru_se 
+gsettings list-recursively 
+gsettings list-recursively | grep 'desktop'
+gsettings list-recursively | grep 'desktop-icon'
+sudo apt-get install ubuntu-desktop
+sudo apt-get install ubuntu-desktop-
+sudo apt-get install ubuntu-desktop
+exit
+sudo apt-get purge dmz-cursor-theme 
+sudo rm -r /usr/share/ic
+sudo apt-get purge dmz-cursor-theme+ 
+suod apt-get install globus-preview
+suod apt-get install gloobus-preview
+sudo apt-get install leafpad
+cat /etc/xdg/autostart/nautilus-autostart.desktop 
+dpkg -L caja-common 
+mate-gsettings-toggle 
+mate-window-properties 
+mateconf-editor
+cd /usr/share/icons/
+ls
+sudo rm -r 24x24
+sudo rm -r 22x22
+sudo rm -r 48x48
+sudo rm -r 16x16/ 32x32
+sudo rm -r 16x16
+sudo rm DOCS 
+sudo rm src/
+sudo rm -r src/
+exit
+cd $icons_d
+du -h . -d 1
+rm -r 22x22 24x24 
+sudo rm -r 22x22 24x24 
+sudo rm -r 22x22 24x24 32x32 48x48 
+du -h .
+du -h . -d 1
+sudo rm -r hicolor
+du -h . -d 1
+gsettings set org.gnome.desktop.interface icon-theme 'Faba-Mono'
+gsettings set org.gnome.desktop.interface icon-theme 'ubudao-style'
+rm -r ~/.kde/ -v
+du -h . -d 1
+sudo apt-get purge mate-icon-theme
+du -h . -d 1
+rm -r mate
+sudo rm -r mate
+sudo rm -r MateLargePrint
+irb
+gsettings list-recursively | grep desktop
+gsettings list-recursively | grep handle
+sudo apt-get install ubuntu-desktop-mate
+sudo apt-get install ubuntu-mate-desktop
+sudo apt-get install ubuntu-desktop
+sudo apt-get install ubuntu-desktop --no-install-recommends
+sudo apt-get install ubuntu-desktop- 
+sudo apt-get install ubuntu-desktop
+sudo aptitude install ubuntu-mate-desktop 
+apt-cache show brltty-x11 
+sudo aptitude install ubuntu-mate-desktop brltty-
+sudo aptitude install ubuntu-mate-desktop
+sudo apt-get install ubuntu-mate-desktop
+sudo apt-get --force-overwrite install ubuntu-mate-desktop
+sudo dpkg -i --force-overwrite /var/cache/apt/archives/mate-icon-theme_1.8.0-1~ppa1~trusty1_all.deb
+sudo dpkg -i --force-overwrite /var/cache/apt/archives/mate-themes_1.8.1-1~ppa1~trusty1_all.deb
+backDebs.sh 
+sudo apt-get --force-overwrite install mate-desktop-environment
+sudo apt-get install mate-desktop-environment
+sudo apt-get install mate-desktop-environment-core
+sudo apt-get install mate-desktop-environment-core -V
+sudo apt-get install mate-desktop-environment
+sudo apt-get install ffmpegthumbnailer libffmpegthumbnailer4
+fc-match 'Traditional Arabic'
+irb
+multi_version_remover.rb 
+ls
+rm /home/learner/bin/multi_version_remover.rb 
+cd bin/
+ln -s ~/Programming/older-debs-cleaner/multi_version_remover.rb 
+cd
+cd Programming/
+multi_version_remover.rb 
+gnome-terminal
+sudo apt-get remove tex-common 
+file --help
+file --mime Text\ Document.txt 
+file --mime-encoding Text\ Document.txt 
+file --mime-encoding Programming/
+file --mime-encoding Programming
+file --mime Programming
+file --mime ~/Desktop
+xdg-mime 
+xdg-mime default nautilus.desktop inode/directory
+xdg-mime query inode/directory
+xdg-mime query filetype inode/directory
+xdg-mime query filetype Programming/
+xdg-mime query filetype Programming
+xdg-mime query filetype Text\ Document.txt 
+xdg-mime query file
+xdg-mime query filetype todo.txt 
+xdg-mime query filetype .bash_rc
+xdg-mime query filetype .bash_funcs 
+xdg-mime query filetype Programming/older-debs-cleaner/play_ruby.rb 
+xdg-mime query 
+xdg-mime query --help
+xdg-mime query default todo.txt 
+xdg-mime query default application/x-ruby
+xdg-mime query default inode/direcotry
+xdg-mime query default inode/directory
+xdg-mime query default nautilus 
+ssl
+ls .local/share/
+cd .local/share/
+ls
+rm -r mime
+rm -r gsettings-data-convert 
+rm -r recently-used.xbel* -v
+rm -r session_migration-*
+
+rm -r user-places.xbel* -v
+exit
+alias 
+lsdir
+find --help
+find -type l
+find -type l -maxdepth 1
+find  -maxdepth 1 -type l
+find  -maxdepth 1 -type l | sed -i 's/^.\///'
+find  -maxdepth 1 -type l | sed -i 's/^.\///' {} \;
+find  -maxdepth 1 -type l | xargs sed -i 's/^.\///' {} \;
+find  -maxdepth 1 -type l | xargs sed -i 's/^.\///' 
+find  -maxdepth 1 -type l | xargs sed 's/^.\///' 
+find  -maxdepth 1 -type l | xargs cut -d '/' -f 2
+find  -maxdepth 1 -type l | xargs cut -d '/' -f 3
+find  -maxdepth 1 -type l
+find  -maxdepth 1 -type ld
+gedit .hidden 
+xprop 
+mate-appearance-properties 
+unity-control-center --help
+unity-control-center --help-all
+unity-control-center appearenace
+unity-control-center appearance
+unity-control-center sound
+backDebs.sh 
+cd shortcuts/
+ls
+mv * ../ -v
+ls
+cd ..
+rmdir shortcuts/
+cd trusty
+cd ../
+cd trustynew
+ls
+move_to_lettered_folder.rb 
+ls
+cd ls
+genPackages.sh && genRelease.sh 
+rm ./D/docbook-dsssl_1.79-7ubuntu1_all.deb 
+rm ./H/humanity-icon-theme_0.6.5_all.deb ./M/mate-backgrounds_1.8.0-2~ppa1~trusty1_all.deb ./M/mate-icon-theme-faenza_1.8.0+dfsg1-1~trusty1_all.deb
+genRelease.sh 
+cd
+irb
+file --mime-type Quran_Page_670.png 
+echo $XDG_DATA_DIRS 
+ls /usr/share/ubuntu
+ls /usr/share/gnome
+ls /usr/share/gnome/applications/defaults.list 
+cat /usr/share/gnome/applications/defaults.list 
+cat /usr/share/gnome/applications/defaults.list | grep nautilus
+cat /usr/share/
+echo $XDG_DATA_DIRS 
+ls /usr/local/share/applications/
+ls /usr/local/share/applications/mimeinfo.cache 
+cat /usr/local/share/
+echo $XDG_DATA_DIRS 
+ls /usr/share/applications/*
+ls /usr/share/applications/* | grep mime
+cd /usr/share/applications/
+cat mate-mimeapps.list 
+xdg-mime default nautilus.desktop inode/directory
+echo $XDG_SE
+echo $XDG_SEAT
+echo $XDG_SEAT_PATH 
+echo $XDG_SESSION_
+echo $XDG_SESSION_PATH 
+echo $XDG_SESSION_
+echo $XDG_SESSION_ID 
+echo $XDG_GREETER_DATA_DIR 
+echo $XDG_CONFIG_DIRS 
+ls /etc/xdg/xdg-ubuntu
+echo $XDG_RUNTIME_DIR 
+echo $XDG_CURRENT_DESKTOP 
+echo $XDG_DATA_DIRS 
+echo $XDG_GREETER_DATA_DIR 
+cd $XDG_GREETER_DATA_DIR 
+ls
+cd ..
+ls
+ls lightdm/
+cd $XDG_CONFIG_DIRS
+cd /etc/xdg
+ls
+cd /etc/xdg
+cd $XDG_CONFIG_DIRS
+gnome-settings-daemon 
+ps -e | grep gnome
+gnome-settings-daemon 
+gnome-settings-daemon --version
+gnome-settings-daemon --help
+gnome-settings-daemon -r
+ps -e | grep ubun
+find -iname '*futura*'
+mv \[\ fonts\ \]/ fonts_
+ls
+mv \[\ fonts\ \]/ fonts_
+find -iname '*futura*'
+ls
+ps
+ps -e | grep mate
+killall mate-settings-daemon 
+sudo apt-get autoremove mate-common mate-panel
+sudo apt-get autoremove mate-applets-common mate-media-common mate-*
+sudo apt-get autoremove
+sudo apt-get autoremove trevilla-themes stark-gtk-theme 
+
+apt-cache search 'mate'
+backDebs.sh 
+ls /linux/linux/repo/trusty_new/
+cd /linux/linux/repo/trusty_new/
+ls ubuntu-mate-wallpapers_0.3.8~trusty1.1_all.deb 
+sudo dpkg -i ubuntu-mate-wallpapers_0.3.8~trusty1.1_all.deb 
+dpkg --listfiles ubuntu-mate-wallpapers
+dpkg-deb --listfiles ubuntu-mate-wallpapers
+dpkg-deb --contents ubuntu-mate-wallpapers_0.3.8~trusty1.1_all.deb 
+du -h ubuntu-mate-wallpapers_0.3.8~trusty1.1_all.deb 
+sudo nethogs usb0
+exit
+rm -r Mint-X
+sudo rm -r Mint-X
+sudo rm -r Mint-X-Dark/
+mp4join
+mpgtx
+sudo apt-cache show mpgtx 
+sudo apt-get install mpgtx
+mpgtx --help
+mpgtx 
+man mpgtx 
+mpgjoin f_000005 f_000006 
+mpgjoin f_000005 
+mpgjoin f_000005 f_000006
+mpgjoin -X f_000005 f_000006
+mpgjoin -X f_000011 f_000012
+mpgjoin f_000011 f_000012
+ls
+deskscribe 
+deskscribe --help
+sudo mv everpad.desktop /usr/share/applications/ -v
+update-mime-database
+history | grep update
+
+history | grep mime
+sudo xdg-user-dirs-gtk-update 
+sudo xdg-user-dirs-update 
+man -k 'mime'
+update-desktop-database 
+suod update-desktop-database 
+sudo update-desktop-database 
+sudo update-desktop-database  --help
+sudo update-desktop-database  --verbose
+cd .local/share/applications/
+ls
+cat mimeapps.list 
+rm -r ~/.wine/ -v
+rm -r ~/.local/share/akonadi/
+suod apt-get remove akonadi
+which akonadi
+dpkg -S akonadi
+cd
+dpkg -S akonadic
+sudo apt-get purge akonadi-server 
+sudo apt-get remove akonadi-server 
+sudo apt-get remove akonadi-backend-mysql 
+rm -r .local/share/akonadi
+file --mime-type kitabullah.mp4 
+mv kitabullah.mp4 kitabullah.mp3
+file --mime-type kitabullah.mp4 
+file --mime-type kitabullah.mp3
+cd ..
+ls
+cd Pictures-Videos/nasheed/
+file --mime-type al\ qawlu\ qawlus\ sawarim.mp3 
+clear_craps.rb 
+ls
+cd /media/books+mobile/Quran/
+file --mime-type atheist_islam_hater_converts_to_islam\!_funny_yet_amazing_story\!_\(with_subtitles\)_youtube.MP4 
+audacity --help
+sudo apt-get --purge autoremove audacity
+sudo apt-get install audacity
+sudo apt-get install audacity -t ubuntu-local
+audacity
+find -iname '*audacity*'
+find ~/ -iname '*audacity*'
+rm -r /home/learner/.audacity-data
+audacity 
+cd ~/.audacity-data/
+ls
+cat audacity.cfg audacity.cfg 
+rm audacity.cfg audacity.cfg 
+rm audacity.cfg 
+ls
+audacity 
+rm audacity.cfg 
+audacity 
+apt-cache search 'sound converter'
+apt-cache search 'sound '
+splay
+sudo apt-get install splay
+cd -
+ls
+splay Kitabullah.aac
+cd ..
+ls
+cd ..
+ls
+cd 
+cd /media/mine/Anwar/Pictures-Videos/
+ls
+cd nasheed/
+splay amaman_amaman.mp3 
+splay --help
+arista
+apt-cache search arista
+sudo apt-get install arista
+cd ..
+cd 
+cd -
+cd ..
+cd Posts/
+arista-transcode 
+arista-transcode -s Kitabullah.aac
+arista-transcode -s Kitabullah.aac -i
+arista-transcode -i -s Kitabullah.aac 
+arista-gtk 
+cd Programming/older-debs-cleaner/
+ls
+chmod +x multi_version_remover2.rb 
+ls
+cd ~/trustynew
+ls
+ln -s /home/learner/Programming/older-debs-cleaner/multi_version_remover2.rb /home/learner/bin/ -v
+multi_version_remover2.rb 
+ruby multi_version_remover2.rb 
+multi_version_remover2.rb 
+cp humanity-icon-theme_0.6.5_all.deb ~/Programming/older-debs-cleaner/debs/
+apt-ftparchive humanity-icon-theme_0.6.5_all.deb 
+apt-ftparchive package humanity-icon-theme_0.6.5_all.deb 
+dpkg-scanpackages humanity-icon-theme_0.6.5_all.deb 
+apt-ftparchive 
+cd ~/Programming/older-debs-cleaner/debs/
+apt-ftparchive packages . 
+rm humanity-icon-theme_0.6.5_all.deb 
+cd -
+cp humanity-icon-theme_0.6.5_all.deb ~/Programming/older-debs-cleaner/debs/
+multi_version_remover2.rb 
+sudo apt-get purge arista 
+multi_version_remover2.rb 
+cat .bash_history 
+exit
+cd
+exit

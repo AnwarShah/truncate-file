@@ -1,0 +1,100 @@
+find  -type f 
+find  -type f | wc 
+find -iname '*.deb' -type f
+find -iname '*.deb' -type f | wc 
+ls *.deb
+mkdir -p 1/2/3/4/5/66/76/7/56/45/34/342/32/3/23/
+mv db.deb 1/2/3/4/5/66/76/7/56/45/34/342/32/3/23/ -v
+find -iname '*.deb' -type f | wc 
+cd /media/linux+custom/linux/repo/Trusty-New/
+find -iname '*.deb' -type f | wc 
+cd /usr/share/fonts/truetype/
+ls
+cd ..
+ls
+find -iname 'anaktoria'
+find -iname '*anaktoria*'
+find -iname '*anaktoria*' -exec rm {} \;
+sudo find -iname '*anaktoria*' -exec rm {} \;
+sudo find -iname '*allura*' -exec rm -i {} \;
+sudo find -iname '*allura*' 
+sudo find -iname '*alex*' 
+sudo find -iname '*alex*' -exec rm  -i {} \;
+exit
+cd /usr/share/fonts
+ls
+sudo find -iname '*alex*' -exec rm  -i {} \;
+sudo find -iname '*ange*' -exec rm  -i {} \;
+sudo find -iname '*ange*' 
+sudo find -iname '*an*' 
+sudo find -iname '*ani*' 
+sudo find -iname 'ani*' 
+sudo find -iname 'ange*' 
+sudo find -iname 'An*' 
+sudo find -iname 'Ang*' 
+sudo find -iname 'Ar*' 
+sudo find -iname 'Art*' 
+sudo find -iname 'art*' 
+fc-list 'art*'
+fc-list '*art*'
+fc-list '*ar*'
+fc-list '*a*'
+fc-list ''
+fc-list 'a'
+fc-list 'a*'
+fc-list 'a\*'
+fc-list 
+fc-list --help
+fc-list art
+fc-list ar
+fc-list an
+fc-list An
+fc-list A
+fc-list A*
+fc-list cl
+fc-list *cl*
+fc-list *C*
+fc-list *cl* -v
+fc-list *cl* -q
+fc-list *cl* -V
+fc-list *cl* -h
+fc-list *cl* 
+fc-list *cl* --verbose
+man fc-list
+fc-list [cs]
+fc-list [s]
+fc-list [/*/]
+info fc-list
+fc-match 'arch'
+fc-pattern 'df'
+fc-pattern 'arch*'
+fc-pattern '*arch*'
+fc-scan ''
+fc-scan 'a'
+fc-scan 
+fc-query 
+fc-query slkdf
+fc-validate
+sudo find -iname 'ar*' 
+sudo find -iname 'bl*' 
+sudo ~/.fonts/ find -iname 'bl*' 
+sudo ~/.fonts find -iname 'bl*' 
+sudo find ~/.fonts  -iname 'bl*' 
+sudo find /home/learner/.local/share/font-manager/  -iname 'bl*' 
+sudo find /home/learner/.local/share/  -iname 'bl*' 
+sudo find /home/learner/  -iname 'bl*' 
+sudo find /home/learner/  -iname 'bl*.ttf' 
+fc-match 'blackjack
+'
+fc-list 'BlackJack'
+$fdir=/usr/local/share/fonts/
+fdir=/usr/local/share/fonts/
+sudo find $fdir  -iname 'bl*.ttf' 
+sudo find $fdir|.  -iname 'bl*.ttf' 
+sudo find [$fdir|.]  -iname 'bl*.ttf' 
+sudo find [$fdir,.]  -iname 'bl*.ttf' 
+sudo find {$fdir,.}  -iname 'bl*.ttf' 
+sudo find {$fdir,.}  -iname 'ar*.ttf' 
+$fdir=/usr/local/share/fonts/, /usr/share/fonts/
+$fdir="/usr/local/share/fonts/, /usr/share/fonts/"
+$fdir="/usr/local/share/fonts/|/usr/share/fonts/"
