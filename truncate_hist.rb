@@ -62,7 +62,6 @@ end
 def set_options(opt_hash)
   @options = opt_hash
   # if more than no of lines given, set max of total lines
-  p @options
   if @options['-l'] > @total_lines
     options['-'] = @total_lines
   end
@@ -97,9 +96,9 @@ def print_lines(lines_arr)
   end
 end
 
-def write_to_file(source, from, to, file)
-  from.upto(to) do |lineno|
-    file.write(source[lineno])
+def write_to_file(source, file)
+  source.each do |line|
+    file.write(line)
   end
 end
 
@@ -110,12 +109,11 @@ def truncate_lines(lines)
 
   File.open(temp_file, "w") do |file|
     if orientation == 'top'
-      write_to_file(lines, 0, line_count-1, file)
+      write_to_file(lines.drop(line_count), file)
     elsif orientation == 'bottom'
-
+      write_to_file(lines.take(@total_lines - line_count), file)
     end
   end
-
 end
 
 lines = read_all_lines
