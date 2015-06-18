@@ -67,7 +67,7 @@ def valid_options?(opt_hash)
   true #otherwise true
 end
 
-def is_valid_filename?(file)
+def valid_filename?(file)
   unless File.exists?file
     error_file_not_exists
   end
@@ -100,7 +100,7 @@ end
 
 def read_filename
   @filename = ARGV.pop #last options is the filename
-  is_valid_filename? @filename # check if filename is valid 
+  valid_filename? @filename # check if filename is valid 
 end
   
 def read_all_lines
@@ -137,9 +137,10 @@ def truncate_lines(lines)
   FileUtils.mv(temp_file, @filename)
 end
 
-read_filename
-lines = read_all_lines
-@total_lines = lines.length
-parse_user_options()
-
-truncate_lines(lines)
+if $0 == __FILE__
+  read_filename
+  lines = read_all_lines
+  @total_lines = lines.length
+  parse_user_options
+  truncate_lines(lines)
+end
