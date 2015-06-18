@@ -20,13 +20,13 @@ def print_help_msg
   puts 'options: '
   puts "  -o    orientation. Valid values 'top', 'bottom'. Default 'top' "
   puts "  -l    no of lines to delete. Positive integer. Default 1000"
+  puts ''
+  puts "FILE is the name of file to truncate from"
 end
 
-def give_usage_hint
-  puts "usage: truncate_hist.rb -o [top|bottom] -l no_of_lines"
-  puts "Truncate lines from bash history file"
-  print_help_msg
-  exit
+def print_usage
+  puts "Usage: truncate_hist.rb -o [top|bottom] -l [no_of_lines] FILE"
+  puts "Truncate lines from a text file FILE"
 end
 
 def error_more_than_actual_lines(no_lines)
@@ -36,6 +36,12 @@ end
 
 def error_non_positive_line_count
   puts "Error: You have given non-positive value for line count"
+  exit
+end
+
+def error_file_not_exists
+  puts "Error: File '#{@filename}' doesn't exist"
+  print_usage
   exit
 end
 
@@ -61,6 +67,12 @@ def valid_options?(opt_hash)
   true #otherwise true
 end
 
+def is_valid_filename?(file)
+  unless File.exists?file
+    error_file_not_exists
+  end
+end
+
 def set_options(opt_hash)
   @options = opt_hash
   # if more than no of lines given, set max of total lines
@@ -71,19 +83,24 @@ end
 
 def parse_user_options
   if ARGV.length <= 0 
-    give_usage_hint
+    print_usage
+    print_help_msg
   end
 
   if ARGV.length > 0
-    give_usage_hint if not (ARGV.length%2).even?
+    print_usage if not (ARGV.length%2).even?
     opt_hash = Hash[*ARGV]
     unless valid_options?(opt_hash)
-      give_usage_hint
+      print_usage
     else
       set_options(opt_hash)
     end
   end
-  
+end
+
+def read_filename
+  @filename = ARGV.pop #last options is the filename
+  is_valid_filename? @filename # check if filename is valid 
 end
   
 def read_all_lines
@@ -120,9 +137,9 @@ def truncate_lines(lines)
   FileUtils.mv(temp_file, @filename)
 end
 
-@filename = 'history_copy'
+read_filename
 lines = read_all_lines
 @total_lines = lines.length
 parse_user_options()
-# print_lines(lines)
+
 truncate_lines(lines)
