@@ -11,17 +11,18 @@ end
 
 # default options
 ORIENT_OPS = ['top', 'bottom']
+DEFAULT_LINES = 10
 
 @options = {
   '-o' => 'top', #or 'bottom'
-  '-l' => 1000
+  '-l' => DEFAULT_LINES
 }
 
 def print_help_msg
   puts ''
   puts 'options: '
   puts "  -o    orientation. Valid values 'top', 'bottom'. Default 'top' "
-  puts "  -l    no of lines to delete. Positive integer. Default 1000"
+  puts "  -l    no of lines to delete. Positive integer. Default #{DEFAULT_LINES}"
   puts ''
   puts "FILE is the name of file to truncate from"
 end
@@ -29,6 +30,20 @@ end
 def print_usage
   puts "Usage: truncate_hist.rb -o [top|bottom] -l [no_of_lines] FILE"
   puts "Truncate lines from a text file FILE"
+end
+
+def proceed_with_defaults?
+  prompt = "You haven't give any option. " + 
+        "I'll truncate #{DEFAULT_LINES} lines from top of file '#{@filename}'. " + 
+        "Proceed? (Y/N)"
+  puts prompt
+  answer = gets.chomp.downcase
+  if answer == 'y'
+    return true
+  else
+    puts "Exited without any truncation"
+    return false
+  end
 end
 
 def error_more_than_actual_lines(no_lines)
@@ -44,6 +59,13 @@ end
 def error_file_not_exists
   puts "Error: File '#{@filename}' doesn't exist"
   print_usage
+  exit
+end
+
+def error_no_filename_given
+  puts "Filename is required"
+  print_usage
+  print_help_msg
   exit
 end
 
@@ -73,6 +95,7 @@ def valid_filename?(file)
   unless File.exists?file
     error_file_not_exists
   end
+  file # else
 end
 
 def set_options(opt_hash)
@@ -85,8 +108,7 @@ end
 
 def parse_user_options
   if ARGV.length <= 0 
-    print_usage
-    print_help_msg
+    return if proceed_with_defaults? # to proceed with default options
   end
 
   if ARGV.length > 0
@@ -101,8 +123,12 @@ def parse_user_options
 end
 
 def read_filename
-  @filename = ARGV.pop #last options is the filename
-  valid_filename? @filename # check if filename is valid 
+  @filename = ARGV.pop
+  unless @filename.nil?
+    @filename = valid_filename?(@filename) 
+  else
+    error_no_filename_given
+  end
 end
   
 def read_all_lines
@@ -140,7 +166,7 @@ def truncate_lines(lines)
 end
 
 if $0 == __FILE__
-  read_filename
+  read_filename # read into @filename variable
   lines = read_all_lines
   @total_lines = lines.length
   parse_user_options
