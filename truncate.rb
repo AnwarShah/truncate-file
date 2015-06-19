@@ -20,16 +20,18 @@ DEFAULT_LINES = 10
 
 def print_help_msg
   puts ''
-  puts 'options: '
-  puts "  -o    orientation. Valid values 'top', 'bottom'. Default 'top' "
-  puts "  -l    no of lines to delete. Positive integer. Default #{DEFAULT_LINES}"
+  puts 'Options: '
+  puts "  -o    Orientation. Valid values 'top', 'bottom'. Default 'top' ."
+  puts "  -l    An integer, number of lines to delete. Default is #{DEFAULT_LINES}."
+  puts "  -h    This help message."
   puts ''
-  puts "FILE is the name of file to truncate from"
+  puts "FILE is the name of file to truncate from."
+  puts "LINE_COUNT is an integer, denoting number of lines to truncate."
 end
 
 def print_usage
-  puts "Usage: truncate_hist.rb -o [top|bottom] -l [no_of_lines] FILE"
-  puts "Truncate lines from a text file FILE"
+  puts "Usage: truncate_hist.rb [-h] [-o top|bottom] [-l LINE_COUNT] FILE"
+  puts "Truncate lines from a text file."
 end
 
 def proceed_with_defaults?
@@ -62,10 +64,14 @@ def error_file_not_exists
   exit
 end
 
-def error_no_filename_given
-  puts "Filename is required"
+def print_long_help
   print_usage
   print_help_msg
+end
+
+def error_no_filename_given
+  puts "Error: Filename is required"
+  print_long_help
   exit
 end
 
@@ -99,10 +105,14 @@ def valid_filename?(file)
 end
 
 def set_options(opt_hash)
-  @options = opt_hash
-  # if more than no of lines given, set max of total lines
+  # set values from opt_hash
+  opt_hash.each_key { |key|
+    @options[key] = opt_hash[key]
+  }
+
+  # fix invalid values
   if @options['-l'] > @total_lines
-    options['-'] = @total_lines
+    @options['-l'] = @total_lines
   end
 end
 
@@ -165,7 +175,22 @@ def truncate_lines(lines)
   FileUtils.mv(temp_file, @filename)
 end
 
+def asked_help?
+  opt = ARGV.shift
+  unless opt == '-h'
+    ARGV.unshift(opt)
+    return false
+  else
+    return true
+  end
+end
+
 if $0 == __FILE__
+  if asked_help? #check whether first options is help
+    print_long_help
+    exit
+  end
+
   read_filename # read into @filename variable
   lines = read_all_lines
   @total_lines = lines.length
