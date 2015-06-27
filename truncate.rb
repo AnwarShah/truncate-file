@@ -1,4 +1,8 @@
 #!/usr/bin/env ruby
+=begin
+  This script remove lines from top or bottom of a text file.
+  You specify the orientation and number of lines to remove
+=end
 
 require 'fileutils'
 
@@ -13,10 +17,11 @@ end
 ORIENT_OPS = ['top', 'bottom']
 DEFAULT_LINES = 10
 
-@options = {
-  '-o' => 'top', #or 'bottom'
-  '-l' => DEFAULT_LINES
-}
+@options = {}
+
+@options['-o'] = 'top', #or 'bottom'
+@options['-l'] = DEFAULT_LINES
+
 
 def print_help_msg
   puts ''
@@ -34,18 +39,20 @@ def print_usage
   puts "Truncate lines from a text file."
 end
 
-def proceed_with_defaults?
-  prompt = "You haven't give any option. " + 
-        "I'll truncate #{DEFAULT_LINES} lines from top of file '#{@filename}'. " + 
+def yes_answer
+  answer = $stdin.gets.chomp.downcase
+  answer == 'y' ? true : false
+end
+
+def proceed_with_defaults
+  prompt = "You haven't given any option. \n" +
+        "I'll truncate #{DEFAULT_LINES} lines from top of file '#{@filename}'. \n" +
         "Proceed? (Y/N)"
   puts prompt
-  answer = gets.chomp.downcase
-  if answer == 'y'
-    return true
-  else
-    puts "Exited without any truncation"
-    return false
-  end
+  return if yes_answer
+  # else
+  puts "Exited without any truncation"
+  exit
 end
 
 def error_more_than_actual_lines(no_lines)
@@ -78,24 +85,26 @@ end
 def valid_options?(opt_hash)
   opt_hash.each_key do |key|
     case key
+
     when '-o'
       return false unless ORIENT_OPS.include?(opt_hash[key])
+
     when '-l'
       begin
-        no_lines = Integer( opt_hash[key] )
-        opt_hash[key] = no_lines # set the integerized value 
-        if no_lines > @total_lines
-          error_more_than_actual_lines(no_lines)
-        elsif no_lines < 1
-          error_non_positive_line_count
-        end
+        number_lines = Integer( opt_hash[key] )
+        opt_hash[key] = number_lines
+
+        error_more_than_actual_lines(number_lines) if number_lines > @total_lines
+        error_non_positive_line_count if number_lines < 1
+
       rescue ArgumentError => e
         return false
       end
-    end
-  end
-  true #otherwise true
-end
+    end # case
+  end # block
+  true #return
+
+end # method valid_options?
 
 def valid_filename?(file)
   unless File.exists?file
@@ -105,21 +114,18 @@ def valid_filename?(file)
 end
 
 def set_options(opt_hash)
-  # set values from opt_hash
+  # get values from opt_hash
   opt_hash.each_key { |key|
     @options[key] = opt_hash[key]
   }
 
   # fix invalid values
-  if @options['-l'] > @total_lines
-    @options['-l'] = @total_lines
-  end
+  @options['-l'] = @total_lines if @options['-l'] > @total_lines
+
 end
 
 def parse_user_options
-  if ARGV.length <= 0 
-    return if proceed_with_defaults? # to proceed with default options
-  end
+  proceed_with_defaults if ARGV.length <= 0
 
   if ARGV.length > 0
     print_usage if not (ARGV.length%2).even?
